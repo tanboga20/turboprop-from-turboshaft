@@ -1,0 +1,115 @@
+drawing,item,value,source,source_key
+planet,Number of teeth z: 37,37,manufacturing/gear_accuracy_v1.csv,planet / z
+planet,Normal module m_n [mm]: 2,2,manufacturing/gear_accuracy_v1.csv,planet / m_n
+planet,Helix angle [deg]: 0,0,manufacturing/gear_accuracy_v1.csv,planet / beta_deg
+planet,Pressure angle [deg]: 20,20,cad/params/planet.txt,alpha_n
+planet,Profile shift x: 0,0,cad/params/planet.txt,x
+planet,Face width b [mm]: 70,70,manufacturing/gear_accuracy_v1.csv,planet / b_mm
+planet,Reference diameter d [mm]: 74,74,manufacturing/gear_accuracy_v1.csv,planet / d_mm
+planet,Tip / root diameter [mm]: 78 / 69,78 / 69,cad/params/planet.txt,"d_tip, d_root"
+planet,Bore = outer race of the planet bearing [mm]: 53,53,cad/params/planet.txt,bore
+planet,ISO 1328-1 class (profile class): 5 (4),5 (4),manufacturing/gear_accuracy_v1.csv,planet / class
+planet,f_p / F_p [um]: 5.9 / 18,5.9 / 18,manufacturing/gear_accuracy_v1.csv,"planet / f_p, F_p"
+planet,f_fa / f_Ha / F_a [um]: 4.3 / 3.4 / 5.5,4.3 / 3.4 / 5.5,manufacturing/gear_accuracy_v1.csv,planet / profile
+planet,f_fb / f_Hb / F_b [um]: 8.4 / 7.4 / 11,8.4 / 7.4 / 11,manufacturing/gear_accuracy_v1.csv,planet / helix
+planet,Runout F_r [um]: 16,16,manufacturing/gear_accuracy_v1.csv,planet / F_r_um
+planet,Tooth thickness allowance E_sns / E_sni [um]: -40 / -65,-40 / -65,manufacturing/gear_accuracy_v1.csv,"planet / E_sns, E_sni"
+planet,Profile / lead modification tolerance [um]: 2,2,manufacturing/gear_accuracy_v1.csv,planet / mod_tol_um
+planet,"Flank finish: ground, superfinished","ground, superfinished",manufacturing/gear_accuracy_v1.csv,planet / finish
+planet,"Mating gears: sun z45, ring z119","sun z45, ring z119",cad/scripts/drawing.vbs,planet rows (Phase 2)
+planet,dimension: tip diameter,78,cad/params/planet.txt,d_tip
+planet,dimension: bore,53,cad/params/planet.txt,bore
+planet,dimension: face width,70,cad/params/planet.txt,b
+planet,dimension: tip diameter (section),78,cad/params/planet.txt,d_tip
+planet,dimension: bore (section),53,cad/params/planet.txt,bore
+planet,"bore (outer raceway), datum A: cylindricity = 0.003 mm | -",0.003 mm | -,manufacturing/tolerances_v1.csv,"Planets P107 / bore (outer raceway), datum A"
+planet,teeth: radial runout (F_r) = 0.016 mm | A,0.016 mm | A,manufacturing/tolerances_v1.csv,Planets P107 / teeth
+planet,matched set: tooth thickness: size spread within the set = 0.006 mm | -,0.006 mm | -,manufacturing/tolerances_v1.csv,Planets P107 / matched set: tooth thickness
+planet,"teeth: ISO 1328-1:2013 class (pitch, helix / profile) = 5 / 4",5 / 4,manufacturing/tolerances_v1.csv,planets P107 / teeth
+planet,teeth: tooth thickness allowance E_sns / E_sni (ring: space width) = -40 / -65 um,-40 / -65 um,manufacturing/tolerances_v1.csv,planets P107 / teeth
+planet,"Material: Pyrowear 53, VIM-VAR","Pyrowear 53, VIM-VAR",manufacturing/materials_v1.csv,P53 / material
+planet,Specification: AMS 6308,AMS 6308,manufacturing/materials_v1.csv,P53 / specification
+planet,"Condition: Carburized, hardened, sub-zero treated, double tempered at about 200-230 degC (above the 145-171 degC bulk te","Carburized, hardened, sub-zero treated, double tempered at a",manufacturing/materials_v1.csv,P53 / condition_en
+planet,Hardness and case: Surface 58-63 HRC; effective case depth to 550 HV after grinding 0.5-0.7 mm on the main gears (0.4-0.,Surface 58-63 HRC; effective case depth to 550 HV after grin,manufacturing/materials_v1.csv,P53 / hardness_case
+planet,"Surface texture: Flanks ground, then superfinished to Ra <= 0.15 um, Rz <= 0.8 um (STR-09); planet bore (outer race) gro","Flanks ground, then superfinished to Ra <= 0.15 um, Rz <= 0.",manufacturing/materials_v1.csv,P53 / finish
+planet,"NDT: Temper etch after grinding (ISO 14104 / AMS 2649), magnetic particle (ASTM E1444), case depth and core hardness on ","Temper etch after grinding (ISO 14104 / AMS 2649), magnetic ",manufacturing/materials_v1.csv,P53 / ndt
+planet,"Protection: Oil-wetted, no coating; preservation oil for storage","Oil-wetted, no coating; preservation oil for storage",manufacturing/materials_v1.csv,P53 / protection_en
+carrier,Planets: 4,4,cad/params/carrier.txt,n_planets
+carrier,Planet radius [mm]: 82,82,cad/params/carrier.txt,a
+carrier,Pin = inner race [mm]: 38,38,cad/params/carrier.txt,d_pin
+carrier,Pin length [mm]: 82,82,cad/params/carrier.txt,L_pin
+carrier,Plates: diameter x thickness [mm]: 224 x 10,224 x 10,cad/params/carrier.txt,plate_d
+carrier,"Datums: A = outer bearing seat, B = inner bearing seat (axis A-B); C = carrier rear face",A-B,manufacturing/gdt_v1.csv,Carrier with propeller shaft P103 / datums
+carrier,dimension: plate diameter,224,cad/params/carrier.txt,plate_d
+carrier,dimension: pin circle,164,cad/params/carrier.txt,a
+carrier,dimension: propeller shaft outside diameter,120,calc/safety/sf_inputs.m,P103 120 / 100 mm
+carrier,dimension: propeller shaft bore,100,calc/safety/sf_inputs.m,P103 120 / 100 mm
+carrier,dimension: overall length,530,cad/params/carrier.txt,ze
+carrier,dimension: pin diameter,38,cad/params/carrier.txt,d_pin
+carrier,"NU1024 journals (dia 120), datum axis A-B: cylindricity = 0.008 mm | A, B","0.008 mm | A, B",manufacturing/tolerances_v1.csv,"Carrier with propeller shaft P103 / NU1024 journals (dia 120), datum axis A-B"
+carrier,"front plate inner face, datum C: perpendicularity = 0.010 mm | A-B",0.010 mm | A-B,manufacturing/tolerances_v1.csv,"Carrier with propeller shaft P103 / front plate inner face, datum C"
+carrier,four planet pin bores (dia 38): position (diametral zone) = 0.010 mm | A-B|C,0.010 mm | A-B|C,manufacturing/tolerances_v1.csv,Carrier with propeller shaft P103 / four planet pin bores (dia 38)
+carrier,planet pin bores: parallelism to A-B over the pin length = 0.005 mm | A-B,0.005 mm | A-B,manufacturing/tolerances_v1.csv,Carrier with propeller shaft P103 / planet pin bores
+carrier,QJ1024 seat and shoulder: total runout (axial) = 0.015 mm | A-B,0.015 mm | A-B,manufacturing/tolerances_v1.csv,Carrier with propeller shaft P103 / QJ1024 seat and shoulder
+carrier,flange P115 pilot and face: total runout = 0.020 mm | A-B,0.020 mm | A-B,manufacturing/tolerances_v1.csv,Carrier with propeller shaft P103 / flange P115 pilot and face
+carrier,pin in the plate (dia 38): ISO 286 fit = H6 / s6,H6 / s6,manufacturing/tolerances_v1.csv,Carrier P103 / planet pins P104 / pin in the plate (dia 38)
+carrier,catcher-lip axial gap at 20 degC: gap = 0.80-1.00 mm,0.80-1.00 mm,manufacturing/tolerances_v1.csv,Bearing housing P111 / carrier P103 / catcher-lip axial gap at 20 degC
+carrier,"Material: AISI 4340, vacuum arc remelted","AISI 4340, vacuum arc remelted",manufacturing/materials_v1.csv,S43 / material
+carrier,Specification: AMS 6414,AMS 6414,manufacturing/materials_v1.csv,S43 / specification
+carrier,Condition: Quenched and tempered to 1240 MPa tensile (AMS 2759/1); splines of the sun quill and the transfer sleeve bore,Quenched and tempered to 1240 MPa tensile (AMS 2759/1); spli,manufacturing/materials_v1.csv,S43 / condition_en
+carrier,Hardness and case: 38-42 HRC core; nitrided splines at least 600 HV (TBR),38-42 HRC core; nitrided splines at least 600 HV (TBR),manufacturing/materials_v1.csv,S43 / hardness_case
+carrier,Surface texture: Bearing journals ground Ra <= 0.4 um; fillets polished; carrier pin bores line-bored to the 0.010 mm tr,Bearing journals ground Ra <= 0.4 um; fillets polished; carr,manufacturing/materials_v1.csv,S43 / finish
+carrier,"NDT: Ultrasonic of the forging (AMS 2630), magnetic particle (ASTM E1444) after final machining","Ultrasonic of the forging (AMS 2630), magnetic particle (AST",manufacturing/materials_v1.csv,S43 / ndt
+carrier,Protection: Oil-wetted surfaces bare; the propeller shaft outside the nose and the flange: zinc-nickel (AMS 2417) with h,Oil-wetted surfaces bare; the propeller shaft outside the no,manufacturing/materials_v1.csv,S43 / protection_en
+carrier,"Mark: CRITICAL PART - CS-E 515 / KRITIK PARCA; serial number on the part; life tracking: serial number on the part, flig",critical,safety/critical_parts_v1.csv,P103 / life_tracking
+carrier,"Life limit: 20,000 flight cycles declared; basis: the GAG stress range at each governing feature is below the -3 sigma c","20,000 flight cycles declared; basis: th",safety/critical_parts_v1.csv,P103 / life_limit
+carrier,"NDT at manufacture: UT of the forging (AMS 2630 class AA), MPI after final machining as the general surface check (NER 2",ndt,safety/critical_parts_v1.csv,P103 / ndt_manufacture
+carrier,"NDT at TBO: ET of the bearing seat, the thread root and the pin bore corners at each TBO; the pin bores with the pins pr",ndt,safety/critical_parts_v1.csv,P103 / ndt_tbo
+carrier,D4 governing locations: Propeller shaft P103 at the outer bearing seat; Propeller shaft P103 at the KM24 nut thread root,4,safety/critical_parts_v1.csv,P103 / governing_location
+carrier,"1. Planet pins P104 are separate M50NiL parts, pressed in (LN2 shrink) and retained (3.4; materials_v1.csv M5N); pin bor",pins,manufacturing/materials_v1.csv,M5N / condition_en
+carrier,"2. R5 at the shaft-to-front-plate corner (3.9 brief); polish the radius, no tool marks across it.",R5,3.9 brief,O2
+carrier,"3. QJ pull-out shoulder-ring groove: root diameter 118 mm, full radius, 1 mm deep (3.7 D4 location 12, OI-16).",118,calc/safety/sf_inputs.m,in.dt.groove
+carrier,4. Catcher-lip collar P118 shrink fit at z 512-516 on the same setup as the QJ1024 seat (gdt_v1.csv).,P118,manufacturing/bom_v1.csv,RGB-P118
+case,"Attachment flange: OD 325, PCD 308, 30 x M6 12.9 into helical coil inserts in F201, 12 mm flange (3.6 design change)",PCD 308,calc/dynamics/dy_inputs.m,"flange [137.5 162.5 0 12], PCD 308, OD 325"
+case,"Mount pads: interface TBD with the airframer, LD-08 (ICD-24; open item OI-14)",TBD,safety/open_items_37.csv,OI-14
+case,Rear wall: a separate plate clamped in the P101 / F201 joint (open item OI-16; no 3.7 credit depends on an integral wall,separate,safety/open_items_37.csv,OI-16
+case,NJ1024 thermocouple boss: raised 12 mm pad round the hole (3.7 D4 location 11),12,calc/safety/sf_inputs.m,in.dt.tc_boss.t_pad
+case,"cold soak: interference 175-202 um, p 4.33-5.02 MPa","175-202 um, p 4.33-5.02 MPa",manufacturing/fits_ring_seat_v1.csv,cold soak
+case,"ground idle: interference 87-114 um, p 2.15-2.83 MPa","87-114 um, p 2.15-2.83 MPa",manufacturing/fits_ring_seat_v1.csv,ground idle
+case,"cruise 50%: interference 33-61 um, p 0.83-1.51 MPa","33-61 um, p 0.83-1.51 MPa",manufacturing/fits_ring_seat_v1.csv,cruise 50%
+case,"MCT, oil 132: interference 10-37 um, p 0.24-0.92 MPa","10-37 um, p 0.24-0.92 MPa",manufacturing/fits_ring_seat_v1.csv,"MCT, oil 132"
+case,"LD-02, oil 149, 15 min: interference 2-29 um, p 0.05-0.73 MPa","2-29 um, p 0.05-0.73 MPa",manufacturing/fits_ring_seat_v1.csv,"LD-02, oil 149, 15 min"
+case,dimension: ring gear seat bore,259,manufacturing/tolerances_v1.csv,ring gear seat bore dia 259
+case,dimension: inner propeller bearing seat,180,cad/params/case.txt,"segs r 90, z 133.8-160"
+case,dimension: outer propeller bearing seat,180,cad/params/case.txt,"segs r 90, z 412-446"
+case,dimension: overall length,446,cad/params/case.txt,segs z 0-446
+case,dimension: ring gear seat bore (end view),259,manufacturing/tolerances_v1.csv,ring gear seat bore dia 259
+case,"mount flange face, datum A: flatness = 0.030 mm | -",0.030 mm | -,manufacturing/tolerances_v1.csv,"Planetary case P101 / mount flange face, datum A"
+case,"flange pilot, datum B; dowel, datum C: datum feature = A, B, C","A, B, C",manufacturing/tolerances_v1.csv,"Planetary case P101 / flange pilot, datum B; dowel, datum C"
+case,ring gear seat bore dia 259: cylindricity = 0.012 mm | -,0.012 mm | -,manufacturing/tolerances_v1.csv,Planetary case P101 / ring gear seat bore dia 259
+case,ring gear seat bore: position (diametral zone) = 0.020 mm | A|B,0.020 mm | A|B,manufacturing/tolerances_v1.csv,Planetary case P101 / ring gear seat bore
+case,NU1024 liner bores (two): position (diametral zone) = 0.015 mm | A|B,0.015 mm | A|B,manufacturing/tolerances_v1.csv,Planetary case P101 / NU1024 liner bores (two)
+case,ring seat shoulder: perpendicularity = 0.010 mm | A,0.010 mm | A,manufacturing/tolerances_v1.csv,Planetary case P101 / ring seat shoulder
+case,"ring gear seat dia 259: limit dimensions (bore / ring) = bore -230 / -262 um, ring h5","bore -230 / -262 um, ring h5",manufacturing/tolerances_v1.csv,Planetary case P101 / ring gear P102 / ring gear seat dia 259
+case,assembly: drawing note = heat the case to 110 +- 10 degC (at least 76 degC; never above 150 degC),heat the case to 110 +- 10 degC (at least 76 degC; never above 150 degC),manufacturing/tolerances_v1.csv,Planetary case P101 / ring gear P102 / assembly
+case,"Material: A357.0-T6 aluminium, premium-quality sand casting","A357.0-T6 aluminium, premium-quality sand casting",manufacturing/materials_v1.csv,A357 / material
+case,"Specification: AMS-A-21180 (class giving at least 310 MPa tensile and 240 MPa yield in the designated areas, the step 2.",AMS-A-21180 (class giving at least 310 MPa tensile and 240 M,manufacturing/materials_v1.csv,A357 / specification
+case,"Condition: Sand cast (bonded sand cores for the oil passages, chills at the bearing bosses), solution treated, quenched,","Sand cast (bonded sand cores for the oil passages, chills at",manufacturing/materials_v1.csv,A357 / condition_en
+case,Hardness and case: Not applicable (about 85-95 HB); steel seat liners in the bearing bores,Not applicable (about 85-95 HB); steel seat liners in the be,manufacturing/materials_v1.csv,A357 / hardness_case
+case,Surface texture: Machined faces Ra 1.6 um; bearing liner bores Ra 0.8 um; flange face flatness 0.03 mm (TBR),Machined faces Ra 1.6 um; bearing liner bores Ra 0.8 um; fla,manufacturing/materials_v1.csv,A357 / finish
+case,"NDT: Radiography 100% (ASTM E1742, grading to ASTM E155 reference radiographs): AMS 2175 grade B in the critical zones (","Radiography 100% (ASTM E1742, grading to ASTM E155 reference",manufacturing/materials_v1.csv,A357 / ndt
+case,"Protection: Outside: chromate-free conversion coating (MIL-DTL-5541 Type II) + epoxy primer (MIL-PRF-23377, non-chromate",Outside: chromate-free conversion coating (MIL-DTL-5541 Type,manufacturing/materials_v1.csv,A357 / protection_en
+case,"Mark: CRITICAL PART - CS-E 515 / KRITIK PARCA; serial number on the part; life tracking: serial number on the part, flig",critical,safety/critical_parts_v1.csv,planetary case / life_tracking
+case,"Life limit: 20,000 flight cycles declared; basis: the GAG stress range at each governing feature is below the -3 sigma c","20,000 flight cycles declared; basis: th",safety/critical_parts_v1.csv,planetary case / life_limit
+case,"NDT at manufacture: critical zones of every P101 casting (R10 flange junction, nose, mount flange and pads) at the 0.5 m",ndt,safety/critical_parts_v1.csv,planetary case / ndt_manufacture
+case,NDT at TBO: FPI and visual of the flange junction and the nose at each TBO; HUMS A1 trend; NDT at TBO after stripping th,ndt,safety/critical_parts_v1.csv,planetary case / ndt_tbo
+case,D4 governing locations: Planetary case at the R10 flange junction; Planetary case nose at the NJ1024 thermocouple boss,2,safety/critical_parts_v1.csv,planetary case / governing_location
+case,"1. HIP of the whole casting, then radiography / CT: P101: every casting after HIP of the whole casting; critical zones (",PR-10,manufacturing/processes_v1.csv,PR-10
+case,"2. Critical zones (R10 flange junction, nose, mount flange and pads): pore limit 0.5 mm; elsewhere 0.8 mm.",0.5,manufacturing/processes_v1.csv,PR-10
+case,3. Fire: the P101 / F201 joint plane carries the nacelle fire seal (ICD-39); fire-rated secondary seal at the joint (ope,ICD-39,safety/open_items_37.csv,"OI-05, OI-07"
+assembly,"1. Catcher-lip axial gap at 20 degC: 0.80-1.00 mm (at least 0.6 mm hot, loaded and pulled out: 20 degC minimum 0.771 = 0",0.80-1.00,manufacturing/stack_axial_v1.csv,"lip_gap_min, lip_margin_min"
+assembly,2. NJ1024 end play 0.52 mm by a measured selective spacer P120; coupling pre-stretch 0.75 mm by a measured shim (ICA-22),0.52,calc/safety/sf_inputs.m,in.ica ICA-22
+assembly,3. Case flange S601 30 x M6 12.9: torque and lock per drawing; P101 / F201 joint plane carries the nacelle fire seal (IC,S601,manufacturing/bom_v1.csv,RGB-S601
+assembly,"4. Critical parts (CS-E 515) marked on their drawings: PT output shaft F212, RGB input shaft, P103, P111, P101, P117, co",7,safety/critical_parts_v1.csv,critical = yes
+assembly,parts list rows,89,manufacturing/bom_v1.csv,all rows
+all,SYS-06 change from the drawing set,none (no mass change; the drawings carry the 3.7 roll-up),requirements/changes_phase3.csv,SYS-06

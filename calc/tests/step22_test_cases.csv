@@ -1,0 +1,30 @@
+tc,quantity,expected,unit
+TC24,tau_MC,4.08019e+07,Pa
+TC24,tau_lim,5.22247e+07,Pa
+TC24,twist_100,0.410821,deg
+TC24,n_buck,24.8474,-
+TC24,n_f,7.84283,-
+TC24,n_cr,31228.5,rpm
+TC24,n_ss,31440.3,rpm
+TC25,k_ax,1.91598e+06,N/m
+TC25,s_ax,7.76119e+11,Pa/m
+TC25,k_th,2376.78,N m/rad
+TC25,s_th,4.19013e+10,Pa/rad
+TC25,k_ax_point_load,209600,N/m
+TC26,n_f,0.981666,-
+TC26,n_static,0.687819,-
+TC26,n_burst,4.19372,-
+TC26,n_buck,18.3666,-
+TC26,F_ax,1436.98,N
+TC26,M_mis,10.3706,N m
+TC27,twist_100,0.410821,deg
+TC27,res,0.00264,deg
+TC27,err_res,0.00642615,-
+TC28,P,324.253,N
+TC28,P_lim,952.497,N
+TC28,L10,6.55836e+07,h
+TC28,F_rm,1029,N
+TC29,T_air_out,115.865,degC
+TC29,T_shaft_max,118.356,degC
+TC29,Q_in,373.234,W
+TC29,P_wind,48.6888,W

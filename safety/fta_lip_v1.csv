@@ -1,0 +1,25 @@
+quantity_en,quantity_tr,value
+"lip disc thickness [mm]",dudak diski kalınlığı [mm],2.9
+"lip stress at limit [MPa]",sınır yükte dudak gerilmesi [MPa],497.440837472677
+"lip stress at ultimate [MPa]",nihai yükte dudak gerilmesi [MPa],746.161256209016
+"lip reserve factor on F_tu at ultimate",nihai yükte F_tu emniyet katsayısı,1.20081281699383
+"bolt stress at limit [MPa]",sınır yükte cıvata gerilmesi [MPa],228.87323943662
+"bolt stress at ultimate [MPa]",nihai yükte cıvata gerilmesi [MPa],343.30985915493
+"cover mass [kg]",kapak kütlesi [kg],0.276487155504759
+"P116 total mass [kg]",P116 toplam kütle [kg],0.476487155504759
+"run-down rub energy [kJ]",yavaşlamada sürtünme enerjisi [kJ],53.0984748068362
+"hottest contact temperature, shared contact [degC]",ortak temasta en sıcak temas sıcaklığı [degC],736.382390512564
+"hottest temperature, one-sided [degC]",tek taraflı en yüksek sıcaklık [degC],2795.4884741902
+"lip hot yield there [MPa]",orada dudak sıcak akması [MPa],202.702892333667
+"lip drag stress [MPa]",dudak sürükleme gerilmesi [MPa],124.360209368169
+"q R7",q R7,0.001
+"thrust floor [kN]",itki tabanı [kN],1.5
+"NJ1024 continuous axial rating [kN]",NJ1024 sürekli eksenel kapasite [kN],3.0535
+"NJ1024 brief axial rating [kN]",NJ1024 kısa süreli eksenel kapasite [kN],7.2035
+"limp thrust [kN]",topal mod itkisi [kN],3
+"NJ1024 end play [mm]",NJ1024 eksenel boşluk [mm],0.52
+"p NJ fails given E4",E4'te NJ hasarı olasılığı,0.0816666666666667
+"R4",R4,0.00109105833333333
+"E7 p (three phases)",E7 p (üç evre),0.012
+"SYS-06 roll-up [kg]",SYS-06 toplamı [kg],110.096487155505
+"SYS-06 with offsets [kg]",dengelemelerle SYS-06 [kg],109.846487155505

@@ -1,0 +1,3 @@
+case_en,case_tr,s_ultimate_MPa,RF_yield_limit,RF_ultimate
+axial only (anchors carry no torque): 1.5 x LD-04 limit thrust,"yalnız eksenel (bağlantılar tork taşımaz): 1,5 x LD-04 sınır itkisi",22.4689331423852,55.2095638960236,39.8772827495664
+bound: 1.5 x (limit thrust + propeller weight at n_z 2.5 + gyroscopic moment),"sınır: 1,5 x (sınır itkisi + n_z 2,5'te pervane ağırlığı + jiroskopik moment)",449.69383224852,2.75854350458257,1.99246673124223

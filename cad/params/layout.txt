@@ -1,0 +1,3 @@
+# layout: written by calc/cad_export/cx_export.m, do not edit
+a_s1 = 145.974
+a_planet = 82

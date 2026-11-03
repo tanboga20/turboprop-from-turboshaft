@@ -1,0 +1,6 @@
+gear,key,z,m_n,beta_deg,b_mm,d_mm,class,class_profile,f_p_um,F_p_um,f_fa_um,f_Ha_um,F_a_um,f_fb_um,f_Hb_um,F_b_um,F_r_um,E_sns_um,E_sni_um,mod_tol_um,finish
+input pinion F203,pinion,31,2,15,52,64.1871231854252,4,4,4.1,13,4.3,3.4,5.5,5.5,4.9,7.4,12,-70,-100,2,"ground, superfinished"
+gear 2 F202,gear2,110,2,15,52,227.760759690218,4,4,4.3,16,4.3,3.6,5.6,5.9,5.1,7.8,14,-90,-130,2,"ground, superfinished"
+sun P105,sun,45,2,0,70,90,5,4,5.9,19,4.3,3.5,5.5,8.4,7.4,11,17,-40,-65,2,"ground, superfinished"
+planets P107,planet,37,2,0,70,74,5,4,5.9,18,4.3,3.4,5.5,8.4,7.4,11,16,-40,-65,2,"ground, superfinished"
+ring gear P102,ring,119,2,0,70,238,5,5,6,22,6.1,5,7.9,8.8,7.7,12,20,60,20,2,"shaped, honed, superfinished"

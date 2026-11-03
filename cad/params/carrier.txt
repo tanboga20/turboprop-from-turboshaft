@@ -1,0 +1,14 @@
+# carrier: written by calc/cad_export/cx_export.m, do not edit
+a = 82
+n_planets = 4
+L_pin = 82
+post_w = 32
+post_t = 60
+d_pin = 38
+plate_t = 10
+plate_d = 224
+ze = 530
+n_sc = 8
+r_sc = 122
+R_sc = 22
+pin_bore = 20

@@ -1,0 +1,6 @@
+# rollers: written by calc/cad_export/cx_export.m (calc/assembly/as_export.m), do not edit
+n = 18
+r_pitch = 22.75
+r_roller = 3.745
+z0 = 7
+L = 56

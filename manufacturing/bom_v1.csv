@@ -1,0 +1,90 @@
+part_no,part,description,qty,make_buy,material,kg,basis,module
+RGB-P101,case,"Planetary case, conical nose, attachment flange 30 x M6 on PCD 290",1,make,A357,10.978753464,CATIA,planetary
+RGB-P102,ring,"Ring gear z 119, m 2, b 70, nitrided",1,make,N13,4.426172937,CATIA,planetary
+RGB-P103,carrier,"Planet carrier with the propeller shaft 120/100 (one piece), 4 posts, scalloped plates",1,make,S43,22.967988777,CATIA,planetary
+RGB-P104,planet_pin,"Planet pin, hollow (bore 20), inner race of the planet bearing; press fit in the carrier (mass in P103)",4,make,M5N,0,in parent,planetary
+RGB-P105,sun,"Sun gear z 45, m 2, b 70, crowned internal spline",1,make,P53,2.469345534,CATIA,planetary
+RGB-P106,sun_quill,"Sun quill shaft 50/30, fixed and crowned splines",1,make,S43,1.04775579,CATIA,planetary
+RGB-P107,planet,"Planet gear z 37, m 2, b 70; bore = outer race of the planet bearing",4,make,P53,4.499860284,CATIA,planetary
+RGB-P108,planet_rollers,"Planet bearing roller set, 18 rollers 7.5 x 56, full complement (matched set per planet)",4,buy,supplier,1.391027688,CATIA,planetary
+RGB-P109,brg_NU1024,"Propeller shaft roller bearings: NU1024 at z 134 and NJ1024 at z 413 (push-in standby, rib outboard), aerospace class",2,buy,supplier,4.46318306064,CATIA,planetary
+RGB-P110,brg_QJ1024,"Propeller shaft four-point contact bearing QJ1024 class (aerospace)",1,buy,supplier,2.23159153032,CATIA,planetary
+RGB-P111,qj_housing,"Propeller bearing housing on the case nose",1,make,Ti64,2.814514558,CATIA,planetary
+RGB-P112,nut_KM24,"Propeller shaft nut M120 with locking key",1,make,S43,1.183810653,CATIA,planetary
+RGB-P113,seal_prop,"Propeller shaft carbon face seal, 122 x 160 (TBR)",1,buy,supplier,0.461298969,CATIA,planetary
+RGB-P114,ret_tube,"Propeller retention tube 90/80 x 600 (SAF-01, Decision 4)",1,make,Ti64,3.548900023,CATIA,planetary
+RGB-P115,prop_flange,"Propeller flange (placeholder, PIF-01 TBD)",1,make,S43,3.944446281,CATIA,planetary
+RGB-F201,fs_case,"First-stage (offset) case with engine mount ring",1,make,A357,8.971750776,CATIA,first_stage
+RGB-F202,gear2,"First-stage gear z 110, mn 2, helical, damping ring groove",1,make,P53,5.078632743,CATIA,first_stage
+RGB-F203,pinion,"Input pinion z 31, mn 2, with its bearing journals",1,make,P53,2.144476485,CATIA,first_stage
+RGB-F204,mid_shaft,"Intermediate shaft 50/30 with the PCU pinion z 20",1,make,P53,1.986838227,CATIA,first_stage
+RGB-F205,brg_NU2210,"Intermediate shaft roller bearing NU2210 class",2,buy,supplier,1.14059133936,CATIA,first_stage
+RGB-F206,brg_NU2209,"Input shaft roller bearing NU2209 class",2,buy,supplier,1.05912012672,CATIA,first_stage
+RGB-F207,brg_QJ210,"Intermediate shaft four-point contact bearing QJ210 class",1,buy,supplier,0.49590922896,CATIA,first_stage
+RGB-F208,brg_QJ209,"Input shaft four-point contact bearing QJ209 class",1,buy,supplier,0.43746253848,CATIA,first_stage
+RGB-F209,nut_KM10,"Intermediate shaft nut M50 with lock washer",1,make,S43,0.162351135,CATIA,first_stage
+RGB-F210,nut_KM9,"Input shaft nut M45 with lock washer",1,make,S43,0.135293004,CATIA,first_stage
+RGB-F211,seal_input,"Input carbon face seal, 40 x 82 (TBR)",1,buy,supplier,0.157554477,CATIA,first_stage
+RGB-A301,acc_cover,"Accessory cover with the pump and PCU pads",1,make,A357,1.183495772,CATIA,accessories
+RGB-A302,gen_gear,"Generator gear (one piece with the generator shaft)",1,make,P53,1.33845237,CATIA,accessories
+RGB-A303,gen_shaft,"Generator shaft with the OSG pinion z 21, m 2",1,make,P53,0.515767581,CATIA,accessories
+RGB-A304,gen_cartridge,"Generator bearing cartridge and pad (MNT-02)",1,make,A357,1.830640732,CATIA,accessories
+RGB-A305,brg_6305,"Generator shaft ball bearing 6305 class",2,buy,supplier,0.48460020336,CATIA,accessories
+RGB-A306,seal_gen,"Generator pad carbon face seal, 27 x 60 (TBR)",1,buy,supplier,0.070622685,CATIA,accessories
+RGB-A307,quill_gen,"Generator pad quill, shear neck 10.5",1,make,S43,0.094318614,CATIA,accessories
+RGB-A308,osg_gear,"OSG gear z 30, m 2, with its shaft",1,make,P53,0.173073537,CATIA,accessories
+RGB-A309,osg_adapter,"OSG pad adapter with the outer OSG bearing seat",1,make,S43,0.52913574,CATIA,accessories
+RGB-A310,brg_6202,"OSG shaft ball bearing 6202 class",2,buy,supplier,0.09741096288,CATIA,accessories
+RGB-A311,quill_osg,"OSG pad quill, shear neck 5",1,make,S43,0.052896348,CATIA,accessories
+RGB-A312,pcu_gear,"PCU gear z 73, m 1.5, with its shaft",1,make,P53,0.77836464,CATIA,accessories
+RGB-A313,pcu_adapter,"PCU pad adapter",1,make,S43,0.479674413,CATIA,accessories
+RGB-A314,brg_6203,"PCU shaft ball bearing 6203 class",2,buy,supplier,0.13931524368,CATIA,accessories
+RGB-A315,quill_pcu,"PCU pad quill, shear neck 5",1,make,S43,0.065999853,CATIA,accessories
+RGB-A316,pump_pack,"Supply and scavenge pump pack (2.2 kg, TBR)",1,buy,supplier,2.2,CATIA,accessories
+RGB-A317,quill_pump,"Pump pad quill, shear neck 5",1,make,S43,0.052452387,CATIA,accessories
+RGB-L401,oil_jets,"Oil jets with last-chance strainers (26 nozzles; 6 more are drilled feeds)",26,make,C155,0.052330239,weighed 3.2,lubrication
+RGB-L402,oil_tubes,"External oil tubes 8 and 6 mm bore, fittings and clamps",1,make,C321,1.0470168115763,weighed 3.2,lubrication
+RGB-L403,transfer_sleeve,"Carrier oil transfer sleeve (two grooves: planet oil, PIF-02 pitch oil)",1,make,S43,0.583287237,weighed 3.2,lubrication
+RGB-L404,pitch_tube,"Pitch oil tube on the propeller axis (PIF-02)",1,make,Ti64,0.234589321,weighed 3.2,lubrication
+RGB-E501,mist_accumulator,"Mist oil accumulator (0.28 kg oil charge in E505)",1,make,Ti64,0.6,weighed 3.2,lub07_mist
+RGB-E502,mist_valve,"Mist shut-off and mixing valve, opened by the low-oil-pressure switch",1,buy,supplier,0.3,weighed 3.2,lub07_mist
+RGB-E503,mist_lines,"Mist lines from the valve to the tie-in",1,make,C321,0.6,weighed 3.2,lub07_mist
+RGB-E504,bleed_line,"Bleed air line from the core port, insulated (TBD)",1,make,C321,1,weighed 3.2,lub07_mist
+RGB-E505,mist_oil,"Accumulator oil charge",1,-,oil,0.2799765,weighed 3.2,lub07_mist
+RGB-H701,hums,"HUMS sensors and harness (step 2.10)",1,buy,supplier,0.8,allowance 3.1,hums
+RGB-L405,filter_valves,"filter housing and valves (step 2.7)",1,buy,supplier,0.9,allowance 3.1,lubrication
+RGB-S600,fasteners,"Bolts, studs, washers, locking: bottom-up list of step 3.4 x 1.5 (mass card B)",1,buy,A286,1.958092,allowance 3.1,standard
+RGB-S640,extras_card_B,"Seat liners, flange dowel pins, thicker NU1024 bosses (mass card B; the liner lines S621-S628 are its detail)",1,make,S43,1.805484,allowance 3.1,standard
+RGB-S601,fastener,"planetary case to first-stage case flange (step 2.8) (M6 x 26)",30,buy,S129,0.252285404599911,estimate 3.4,standard
+RGB-S602,fastener,"first-stage case to accessory cover (M5 x 20)",24,buy,A286,0.110562737008509,estimate 3.4,standard
+RGB-S603,fastener,"engine mount ring on the first-stage case (TBD, engine maker) (M8 x 30)",12,buy,A286,0.216853895056337,estimate 3.4,standard
+RGB-S604,fastener,"propeller bearing housing to the case nose (M6 x 20)",12,buy,A286,0.0847502906461264,estimate 3.4,standard
+RGB-S605,fastener,"ring gear retention plate (M6 x 18)",12,buy,A286,0.0721591655815138,estimate 3.4,standard
+RGB-S606,fastener,"generator cartridge to the first-stage case (M6 x 20)",8,buy,A286,0.0565001937640843,estimate 3.4,standard
+RGB-S607,fastener,"generator mounting studs and nuts (pad, TBD) (M8 x 35)",6,buy,A286,0.14235269744953,estimate 3.4,standard
+RGB-S608,fastener,"OSG adapter and OSG mounting studs (M6 x 25)",8,buy,A286,0.0778284102051053,estimate 3.4,standard
+RGB-S609,fastener,"PCU adapter and PCU mounting studs (M6 x 25)",10,buy,A286,0.0972855127563817,estimate 3.4,standard
+RGB-S610,fastener,"pump pack (M6 x 25)",4,buy,A286,0.0327400611025527,estimate 3.4,standard
+RGB-S611,fastener,"oil manifold, filter, valves and tube clamps (M5 x 16)",24,buy,A286,0.0955961896068071,estimate 3.4,standard
+RGB-S612,fastener,"covers, chip detector and sensor bosses (M5 x 14)",20,buy,A286,0.0664799299216302,estimate 3.4,standard
+RGB-S621,seat_liner,"Steel seat liner for NU1024 (net of the A357 it replaces)",2,make,S43,0.568472447304134,estimate 3.4,standard
+RGB-S622,seat_liner,"Steel seat liner for NU2209 (net of the A357 it replaces)",2,make,S43,0.191116825585727,estimate 3.4,standard
+RGB-S623,seat_liner,"Steel seat liner for NU2210 (net of the A357 it replaces)",2,make,S43,0.202037787047768,estimate 3.4,standard
+RGB-S624,seat_liner,"Steel seat liner for QJ209 (net of the A357 it replaces)",1,make,S43,0.0814016108976243,estimate 3.4,standard
+RGB-S625,seat_liner,"Steel seat liner for QJ210 (net of the A357 it replaces)",1,make,S43,0.0897945720212303,estimate 3.4,standard
+RGB-S626,seat_liner,"Steel seat liner for 6305 (net of the A357 it replaces)",2,make,S43,0.0869793908443485,estimate 3.4,standard
+RGB-S627,seat_liner,"Steel seat liner for 6202 (net of the A357 it replaces)",1,make,S43,0.0179589144042461,estimate 3.4,standard
+RGB-S628,seat_liner,"Steel seat liner for 6203 (net of the A357 it replaces)",2,make,S43,0.0434896954221742,estimate 3.4,standard
+RGB-S650,o_rings,"O-rings, low-temperature fluorocarbon, AS568 sizes (mass negligible)",1,buy,supplier,0,estimate 3.4,standard
+RGB-X801,oil_cooler,"oil cooler (step 2.7)",1,buy,supplier,4.4,outside SYS-06,external
+RGB-X802,oil_tank,"oil tank, empty (step 2.7)",1,buy,supplier,1.6,outside SYS-06,external
+RGB-F212,pt_shaft,"PT output shaft 66 x 1.5, integral flanges machined from a forged hollow, no welds (CS-E 515)",1,make,S43,1.6,outside SYS-06,input drive
+RGB-F213,coupling_pt,"Diaphragm coupling, PT end, 3 x 0.3 mm 15-5PH diaphragms with spacer flange and bolts (CS-E 515)",1,make,C155,1.2,outside SYS-06,input drive
+RGB-F214,coupling_rgb,"Diaphragm coupling, RGB end, 3 x 0.3 mm 15-5PH diaphragms with spacer flange and bolts (CS-E 515)",1,make,C155,1.2,outside SYS-06,input drive
+RGB-P116,nose_cover,"Nose cover with the axial catcher lip, Ti-6Al-4V, 2.9 mm lip disc, bolted to the P111 front face",1,make,Ti64,0.2765,estimate 3.7,planetary
+RGB-P117,shoulder_ring,"QJ1024 pull-out shoulder ring, split ring in a P103 groove with a retaining sleeve (CS-E 515)",1,make,S43,0.3,estimate 3.7,planetary
+RGB-P118,collar,"P103 collar for the catcher lip, shrink fit, z 512-516",1,make,S43,0.16,estimate 3.7,planetary
+RGB-P119,qj_retainer,"QJ1024 outer-ring retainer (-z abutment) at z 446 in P111",1,make,Ti64,0.05,estimate 3.7,planetary
+RGB-P120,nj_spacer,"NJ1024 selective end-play spacer and the flanged S621 liner change",1,make,S43,0.07,estimate 3.7,planetary
+RGB-S613,fastener,"nose cover P116 to P111 (8 x M5 x 16, inserts, locked)",8,buy,A286,0.04,estimate 3.7,standard
+RGB-H704,thermocouples,"NJ1024 outer-ring thermocouples (2) and P116 skirt thermocouple (1) with harness",1,buy,supplier,0.08,estimate 3.7,monitoring

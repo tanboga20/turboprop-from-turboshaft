@@ -1,0 +1,9 @@
+# sun: written by calc/cad_export/cx_export.m, do not edit
+z = 45
+m = 2
+x = 0
+b = 70
+alpha_n = 20
+bore = 48
+d_tip = 94
+d_root = 85

@@ -1,0 +1,11 @@
+# gen_gear: written by calc/cad_export/cx_export.m, do not edit
+z = 57
+mn = 2
+beta = 15
+hand_right = 1
+x = 0
+b = 16
+alpha_n = 20
+hub_d = 80
+bore = 16
+a_w = 172.488

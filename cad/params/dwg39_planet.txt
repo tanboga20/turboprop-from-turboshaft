@@ -1,0 +1,60 @@
+# written by cad/scripts/make_dwg39.py, do not edit
+TITLE|PLANET GEAR P107 / PLANET DISLISI P107
+PARTNO|RGB-P107
+MAT|Pyrowear 53 (AMS 6308), carburized
+SOURCE|part:planet
+SCALE|1
+PAPER|4
+RCUT|45
+TABLE|GEAR DATA / DISLI VERILERI (ISO 1328-1:2013; gear_accuracy_v1.csv, cad/params/planet.txt)
+ROW|Number of teeth z: 37
+ROW|Normal module m_n [mm]: 2
+ROW|Helix angle [deg]: 0
+ROW|Pressure angle [deg]: 20
+ROW|Profile shift x: 0
+ROW|Face width b [mm]: 70
+ROW|Reference diameter d [mm]: 74
+ROW|Tip / root diameter [mm]: 78 / 69
+ROW|Bore = outer race of the planet bearing [mm]: 53
+ROW|ISO 1328-1 class (profile class): 5 (4)
+ROW|f_p / F_p [um]: 5.9 / 18
+ROW|f_fa / f_Ha / F_a [um]: 4.3 / 3.4 / 5.5
+ROW|f_fb / f_Hb / F_b [um]: 8.4 / 7.4 / 11
+ROW|Runout F_r [um]: 16
+ROW|Tooth thickness allowance E_sns / E_sni [um]: -40 / -65
+ROW|Profile / lead modification tolerance [um]: 2
+ROW|Flank finish: ground, superfinished
+ROW|Mating gears: sun z45, ring z119
+DIM|end|-39|0|39|0|1
+DIM|end|0|-26.5|0|26.5|1
+DIM|sect|39|0|39|-70|0
+DIM|sect|-39|0|39|0|1
+DIM|sect|-26.5|-70|26.5|-70|1
+ROW|Dimensions on the views are the main sizes from the model; all other sizes are in the
+ROW|  tables.
+TABLE|TOLERANCES AND CALLOUTS / TOLERANSLAR (tolerances_v1.csv; GD&T frames as this table, R19)
+ROW|bore (outer raceway), datum A: cylindricity = 0.003 mm | -
+ROW|teeth: radial runout (F_r) = 0.016 mm | A
+ROW|matched set: tooth thickness: size spread within the set = 0.006 mm | -
+ROW|teeth: ISO 1328-1:2013 class (pitch, helix / profile) = 5 / 4
+ROW|teeth: tooth thickness allowance E_sns / E_sni (ring: space width) = -40 / -65 um
+TABLE|MATERIAL AND PROCESS / MALZEME VE PROSES (materials_v1.csv, P53)
+ROW|Material: Pyrowear 53, VIM-VAR
+ROW|Specification: AMS 6308
+ROW|Condition: Carburized, hardened, sub-zero treated, double tempered at about 200-230 degC
+ROW|  (above the 145-171 degC bulk temperatures of step 2.4)
+ROW|Hardness and case: Surface 58-63 HRC; effective case depth to 550 HV after grinding 0.5-0.7
+ROW|  mm on the main gears (0.4-0.6 mm on the m 1.5 accessory gears; at most 0.4 m_n); core at
+ROW|  least 30 HRC (STR-06); retained austenite at most 15% (TBR)
+ROW|Surface texture: Flanks ground, then superfinished to Ra <= 0.15 um, Rz <= 0.8 um (STR-09);
+ROW|  planet bore (outer race) ground and superfinished, Ra <= 0.1 um (TBR); roots protuberance-
+ROW|  hobbed, not ground
+ROW|NDT: Temper etch after grinding (ISO 14104 / AMS 2649), magnetic particle (ASTM E1444), case
+ROW|  depth and core hardness on a test coupon of each heat-treat lot
+ROW|Protection: Oil-wetted, no coating; preservation oil for storage
+TABLE|NOTES / NOTLAR
+ROW|1. Case depth zone: teeth (flanks and roots) and the bore (integral outer race of the planet
+ROW|  bearing) carburized as given under Hardness and case; faces and chamfers masked or ground
+ROW|  after case hardening.
+ROW|2. Surface texture as given under Surface texture; elsewhere Ra 1.6 um. 3. Unless noted ISO
+ROW|  2768-m; dimensions in mm; drawing per ASME Y14.5-2018 (metric) as the 3.8 basis.

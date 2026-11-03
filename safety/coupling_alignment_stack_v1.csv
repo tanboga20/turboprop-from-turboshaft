@@ -1,0 +1,7 @@
+item_en,item_tr,deg
+"alignment ring and spigot on PCD 140: radial 0.04 mm over the 550 mm floating shaft","PCD 140 hizalama halkası ve merkezleme: 550 mm yüzer milde 0,04 mm radyal",0.00416696577542291
+"mount face perpendicularity 0.02 mm across PCD 140","PCD 140 boyunca bağlantı yüzü dikliği 0,02 mm",0.00818511130333073
+"RGB input shaft axis to the mount ring (3.8 position 0.02 mm over the 102 mm bearing span)","RGB giriş mili ekseninin bağlantı halkasına göre konumu (3.8, 102 mm yatak açıklığında 0,02 mm)",0.0112344664272164
+"core: PT rear bearing axis to the core flange (core maker, ICD-37)","çekirdek: PT arka rulman ekseninin çekirdek flanşına göre konumu (çekirdek üreticisi, ICD-37)",0.02
+"thermal: differential radial growth of the core and RGB flanges 0.1 mm","ısıl: çekirdek ve RGB flanşlarının farklı radyal büyümesi 0,1 mm",0.0104174143421316
+"flight loads: core-RGB joint radial deflection 0.1 mm and tilt 0.01 deg at limit manoeuvre (TBR, 3.9)","uçuş yükleri: sınır manevrada çekirdek-RGB birleşimi radyal sehimi 0,1 mm ve 0,01° eğilme (TBR, 3.9)",0.0204174143421316

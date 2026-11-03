@@ -1,0 +1,4 @@
+phase_en,phase_tr,duration_s,load_path,load_kN,qj_state,p
+"(i) mist run under positive thrust (push-in onto the mist-fed NJ1024)","(i) pozitif itki altında sis çalışması (itme sisle yağlanan NJ1024'e)",360,"push-in (NJ1024 standby; KM24 nut path)",4.5,"mist (LUB-07), NJ rated brief",0.01
+"(ii) shutdown and run-down until feathered","(ii) kapatma ve tüylenene kadar yavaşlama",6,"pull-out (shoulder ring, QJ1024, P111)",5,"mist (LUB-07), turning",0.001
+"(iii) feathered, rest of the flight","(iii) tüylenmiş, uçuşun geri kalanı",NaN,"pull-out (shoulder ring, QJ1024, P111)",0.5,"dry, stopped or slow",0.001

@@ -1,0 +1,11 @@
+group_en,group_tr,hazardous,major,minor,hazardous_before_mitigation
+First-stage gears,Birinci kademe dişlileri,0,2,5,5
+Damping ring,Sönüm halkası,0,0,3,1
+Planetary stage,Planet kademesi,7,4,3,11
+Shafts and retention,Miller ve tutma,4,13,4,16
+Cases and joints,Gövdeler ve bağlantılar,1,5,3,4
+Oil system,Yağ sistemi,1,5,11,5
+Emergency mist,Acil sis,0,0,4,0
+Sensors and HUMS,Algılayıcılar ve HUMS,0,2,5,1
+Accessories and seals,Aksesuarlar ve keçeler,0,8,4,4
+Maintenance errors,Bakım hataları,0,5,1,4

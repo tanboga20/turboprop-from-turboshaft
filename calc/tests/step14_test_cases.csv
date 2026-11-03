@@ -1,0 +1,79 @@
+tc,quantity,expected,unit
+TC10,nu_40,27.6,cSt
+TC10,rho_40,985.939,kg/m3
+TC10,eta_40,27.2119,mPa s
+TC10,nu_100,5.1,cSt
+TC10,rho_100,943.792,kg/m3
+TC10,eta_100,4.81334,mPa s
+TC10,nu_132,2.9696,cSt
+TC10,rho_132,921.313,kg/m3
+TC10,eta_132,2.73593,mPa s
+TC10,A,9.31259,-
+TC10,B,3.6665,-
+TC11,eps1,0.792109,-
+TC11,eps2,0.881154,-
+TC11,H_V,0.0978448,-
+TC11,F_bt,12936.1,N
+TC11,v_sum,52.1424,m/s
+TC11,rho_red,9.10172,mm
+TC11,mu_mz,0.0292743,-
+TC11,P_mesh,895040.0,W
+TC11,P_loss,2563.7,W
+TC12,eps1,0.849016,-
+TC12,eps2,1.06423,-
+TC12,H_V,0.0550074,-
+TC12,rho_red,18.3648,mm
+TC12,mu_mz,0.0276486,-
+TC12,P_loss,159.266,W
+TC13,P_wind_gear,520.514,W
+TC13,P_wind_pinion,116.659,W
+TC13,M0,139.087,N mm
+TC13,M1,130.2,N mm
+TC13,P_brg,620.394,W
+TC13,M0_low,6.0,N mm
+TC13,P_brg_low,0.219911,W
+TC14,gen_n,11964.9,rpm
+TC14,gen_ratio,0.54386,-
+TC14,gen_b,10.0,mm
+TC14,gen_S_H,2.4417,-
+TC14,gen_S_F,5.59986,-
+TC14,gen_S_H_fatigue,1.99364,-
+TC14,gen_S_F_static,4.11755,-
+TC14,gen_d_shear,10.4762,mm
+TC14,gen_T_shear,187.56,N m
+TC14,osg_n,8375.44,rpm
+TC14,osg_T_shear,20.3909,N m
+TC14,osg_S_H_static,1.98847,-
+TC14,pcu_z2,73,count
+TC14,pcu_n,1698.63,rpm
+TC14,pump_d_shear,5.0,mm
+TC14,mass_total,4.04494,kg
+TC15,Q_lube,15.0013,L/min
+TC15,cap,28.6018,L/min
+TC15,V_d,5.42729,cm3/rev
+TC15,cap_s,71.5045,L/min
+TC15,P_sup,1048.73,W
+TC15,P_scv,1191.74,W
+TC15,V_tank,6.64831,L
+TC15,T_hot,138.571,degC
+TC15,m_air,0.714995,kg/s
+TC15,lmtd,53.4991,K
+TC15,UA,373.838,W/K
+TC15,v_jet,20.4948,m/s
+TC16,peak,1.23295,-
+TC16,t_peak,0.3623,s
+TC16,t_det,0.0145,s
+TC16,T_time,0.463748,s
+TC16,peak_low_J,1.28796,-
+TC16,t_det_low_J,0.0081,s
+TC17,mesh_s1,2776.63,W
+TC17,mesh_sp,2690.6,W
+TC17,mesh_pr,1040.05,W
+TC17,brg_inp,1730.4,W
+TC17,brg_planet,589.183,W
+TC17,wind_gear2,500.102,W
+TC17,pcu_osg,1313.06,W
+TC17,L_mech,12511.9,W
+TC17,Q_oil,13824.9,W
+TC17,P_PT,961199.0,W
+TC17,eta,0.986983,-

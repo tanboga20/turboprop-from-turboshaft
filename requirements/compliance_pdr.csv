@@ -1,0 +1,66 @@
+id,verdict,evidence_tr,evidence_en
+SYS-01,partial,"RGB'nin dişlileri, milleri ve yatakları 895 kW'ta (5,03 kN·m, K_A 1,25) boyutlandı; güç türbini çıkış mili Faz 2'de, test Faz 3'te.","The RGB gears, shafts and bearings were sized at 895 kW (5.03 kN·m, K_A 1.25); the power turbine output shaft follows in Phase 2, the test in Phase 3."
+SYS-02,met,"i = 12,932: hata −%0,07 (sınır ±%0,5).",i = 12.932: error −0.07% (limit ±0.5%).
+SYS-03,open,1.3'ün kritik hız payları ve 1.4'ün rotor dinamiği bu aralıkla hesaplandı; aralıkta çalışma Faz 2–3'te gösterilecek.,The step 1.3 critical speed margins and the step 1.4 rotordynamics use this range; operation over it is shown in Phases 2 and 3.
+SYS-04,partial,%110'da birinci kademenin taksimat dairesi hızı 81 m/s (STR-08) ve pervane milinin ileri yönlü kritikleri 3.000 rpm'in üstünde; %110'da dayanım Faz 2'de.,"At 110% the first-stage pitch-line velocity is 81 m/s (STR-08) and the forward-whirl criticals of the propeller shaft lie above 3,000 rpm; strength at 110% follows in Phase 2."
+SYS-05,partial,"Kayıp 12,76 kW (sınır 13,6); belirsizliklerin en kötü birleşimi 13,69 kW. Koşul: STR-09 (Ra ≤ 0,3 µm). Verim testi Faz 3'te.",Losses 12.76 kW (limit 13.6); the worst combination of the uncertainties gives 13.69 kW. Condition: STR-09 (Ra ≤ 0.3 µm). Efficiency test in Phase 3.
+SYS-06,met,"RGB kütlesi 77,6 kg (sınır 100 kg).",RGB mass 77.6 kg (limit 100 kg).
+SYS-07,tbd,Temel tasarımda pervane güç türbininin tersine döner; öteki yön iki avara dişliyle elde edilir. Yön uçak üreticisinden gelecek.,In the base design the propeller turns opposite to the power turbine; the other hand needs two idlers. The direction comes from the aircraft maker.
+SYS-08,open,"Tanım PDR'de kondu; 1.4'ün kayıpları jeneratör yüklü ağır durumla hesaplandı. Kontrol mantığı Faz 2'de, test Faz 3'te.","The definition was set at the PDR; the step 1.4 losses use the heavier case with the generator loaded. Control logic in Phase 2, test in Phase 3."
+SYS-09,tbd,Kaçıklık ≈146 mm (dört planet; beş planette 148 mm). Yön ve onay uçak üreticisinden gelecek.,Offset ≈146 mm (four planets; 148 mm with five). Direction and agreement come from the aircraft maker.
+SYS-10,tbd,Mil tüneli Faz 2'de tasarlanacak; egzoz kanalının ölçüleri ve sıcaklıkları çekirdek üreticisinden gelecek.,The shaft tunnel is designed in Phase 2; the exhaust duct dimensions and temperatures come from the core maker.
+LD-01,partial,"Dişlilerin statik kontrolü (en düşük S_H 1,953, S_F 3,784) ve millerin akma kontrolü geçiyor; güç türbini çıkış mili Faz 2'de.","The static check of the gears (lowest S_H 1.953, S_F 3.784) and the yield check of the shafts pass; the power turbine output shaft follows in Phase 2."
+LD-02,open,Tasarım LD-01 torkuyla yapıldı; aşırı tork testi Faz 3'te.,The design uses the LD-01 torque; the overtorque test is in Phase 3.
+LD-03,partial,Pervane itki yatağının gereken statik kapasitesi 20 kN'la hesaplandı (C0 ≥ 40 kN); katalog yatağı ve gövde Faz 2'de.,The required static capacity of the propeller thrust bearing was found with 20 kN (C0 ≥ 40 kN); the catalogue bearing and the housing follow in Phase 2.
+LD-04,open,İki yönlü pervane tutuşu Faz 2'de tasarlanacak.,The two-way propeller retention is designed in Phase 2.
+LD-05,partial,"Pervane mili sınır yükte (LD-01 torku ve jiroskobik moment) n_yield 4,00, n_ult 3,00; yataklar ve gövde Faz 2'de.","Propeller shaft at limit load (LD-01 torque with the gyroscopic moment): n_yield 4.00, n_ult 3.00; bearings and housing follow in Phase 2."
+LD-06,tbd,Dikey yük katsayıları var; yanal ve ileri-geri katsayılar uçak üreticisinden gelecek.,The vertical load factors are known; the lateral and fore-aft factors come from the aircraft maker.
+LD-07,tbd,Değerler pervane üreticisinden gelecek.,The values come from the propeller maker.
+LD-08,open,Faz 2'de pervane ataletinden ve durma süresinden hesaplanacak.,Calculated in Phase 2 from the propeller inertia and the stopping time.
+SAF-01,open,İkinci yük yolu Faz 2'de tasarlanacak.,The second load path is designed in Phase 2.
+SAF-02,open,Kritik parça planları Faz 2–3'te yazılacak.,The critical part plans are written in Phases 2 and 3.
+SAF-03,partial,"Kopma 14,5 ms'de algılanıyor (sınır 20 ms), valf 25 ms sonra kapanıyor; tepe hız %123,3, 1,05 katı ≈%130. Koşul: SAF-06 (τ ≤ 0,1 s) ve J ≥ 0,084 kg·m².","The break is detected at 14.5 ms (limit 20 ms) and the valve closes 25 ms later; peak speed 123.3%, 1.05 times that ≈130%. Condition: SAF-06 (τ ≤ 0.1 s) and J ≥ 0.084 kg·m²."
+SAF-04,open,Yağ pompaları ara milden döndüğü için rüzgârla dönmede de çalışır; yeterliliği Faz 2'de gösterilecek.,"The oil pumps turn with the intermediate shaft, so they keep running while windmilling; that they are enough is shown in Phase 2."
+SAF-05,open,Malzeme ve koruma seçimi Faz 2'de.,Materials and protection are chosen in Phase 2.
+SAF-06,tbd,Çekirdek üreticisine yöneltildi.,Passed to the core maker.
+DYN-01,partial,"İleri yönlü kritikler: giriş mili 265.909, ara mil 137.063, pervane mili 5.373 rpm (sınırlar 26.664, 7.514, 2.060); ROSS'ta 3.000 rpm'e kadar ileri yönlü kesişme yok. Güç türbini çıkış mili Faz 2'de.","Forward-whirl criticals: input shaft 265,909, intermediate shaft 137,063, propeller shaft 5,373 rpm (limits 26,664, 7,514, 2,060); ROSS finds no forward-whirl crossing up to 3,000 rpm. The power turbine output shaft follows in Phase 2."
+DYN-02,open,Burulma modeli Faz 2'de.,Torsional model in Phase 2.
+DYN-03,open,"Faz 2'de analiz, Faz 3'te test.","Analysis in Phase 2, test in Phase 3."
+DYN-04,open,Gövde modeli Faz 2'de.,Housing model in Phase 2.
+DYN-05,risk,"1× geri yönlü kesişme 1.532 rpm (rijitliğe göre 1.403–1.677). Yataklar bir yönde yarı rijitken tepe yörünge 1.700 rpm'dekinin 99 katı; 2,5 kat sınırı için yatak başına ≈10⁵ N·s/m sönüm gerekiyor. Sönümleyici Faz 2'de.","The backward whirl crosses 1× at 1,532 rpm (1,403–1,677 with the stiffness range). With supports half as stiff in one direction the peak orbit is 99 times the one at 1,700 rpm; the 2.5 limit needs ≈10⁵ N·s/m of damping per bearing. The damper is designed in Phase 2."
+STR-01,partial,"En düşük S_H 1,216 (≥ 1,2), en düşük S_F 1,858 (≥ 1,5); LD-01 statik kontrolü geçiyor. Kazıma kontrolü ve ISO 6336 Yöntem B Faz 2'de.","Lowest S_H 1.216 (≥ 1.2), lowest S_F 1.858 (≥ 1.5); the LD-01 static check passes. The scuffing check and ISO 6336 Method B follow in Phase 2."
+STR-02,partial,"Planet yatağı L10 23.056 saat (≥ 12.000), s0 9,12. Ana yatakların katalog seçimi ve a_ISO ile L10m Faz 2'de.","Planet bearing L10 23,056 h (≥ 12,000), s0 9.12. The catalogue choice of the main bearings and L10m with a_ISO follow in Phase 2."
+STR-03,partial,"RGB millerinde en düşük yorulma güvenliği n_f 1,81 (pervane mili); güç türbini çıkış mili Faz 2'de.",Lowest fatigue safety factor of the RGB shafts n_f 1.81 (propeller shaft); the power turbine output shaft follows in Phase 2.
+STR-04,open,"Gövde modeli Faz 2'de; sınır, K_Hβ kabulünden türetilecek.",Housing model in Phase 2; the limit is derived from the K_Hβ assumption.
+STR-05,partial,"Boyutlandırma bu esasla yapıldı: dişliler 10¹⁰ çevrime, miller sonsuz ömre, planet yatakları 3 × TBO'ya. Ana yataklar Faz 2'de.","Sizing used this basis: gears for 10¹⁰ cycles, shafts for infinite life, planet bearings for 3 × TBO. The main bearings follow in Phase 2."
+STR-06,open,1.3 bu değerleri kabul etti; malzeme şartnamesi Faz 2'de.,Step 1.3 assumed these values; the material specification is written in Phase 2.
+STR-07,open,"1.3, K_γ 1,15 kabul etti; yüzer güneş ve esnek halka Faz 2'de tasarlanacak.",Step 1.3 assumed K_γ 1.15; the floating sun and the flexible ring are designed in Phase 2.
+STR-08,partial,%110'da taksimat dairesi hızı 81 m/s (sınır 100 m/s); diş düzeltmeleri Faz 2'de.,Pitch-line velocity at 110% 81 m/s (limit 100 m/s); the flank modifications follow in Phase 2.
+STR-09,open,"1.4'ün kayıp hesabı Ra 0,3 µm kullandı; imalat şartnamesi Faz 2'de.",The step 1.4 losses use Ra 0.3 µm; the manufacturing specification is written in Phase 2.
+LUB-01,met,1.4 hesapları MIL-PRF-23699 STD yağıyla (Mobil Jet Oil II verileri) yapıldı.,The step 1.4 calculations use MIL-PRF-23699 STD oil (Mobil Jet Oil II data).
+LUB-02,partial,"132 °C yağ girişinde kayıp 12,62 kW ve soğutucunun tasarım noktası 138 °C; 149 °C'de 15 dakika ve soğuk çalıştırma Faz 2'de.",With 132 °C oil inlet the losses are 12.62 kW and the cooler design point is 138 °C; 15 minutes at 149 °C and cold starts follow in Phase 2.
+LUB-03,partial,"Besleme pompası 0,55 MPa için boyutlandı (aralık 172–965 kPa); rölanti basıncı Faz 2'de.",The supply pump is sized for 0.55 MPa (range 172–965 kPa); the idle pressure follows in Phase 2.
+LUB-04,partial,"Yağa giren ısı 14,08 kW (en kötü birleşimde ≈15,0 kW); soğutucu 53 °C günde 18 kW için boyutlandı. Koşul: LUB-09 (0,715 kg/s soğutma havası).",Heat into the oil 14.08 kW (≈15.0 kW in the worst combination); the cooler is sized for 18 kW on a 53 °C day. Condition: LUB-09 (0.715 kg/s of cooling air).
+LUB-05,open,Filtre ve iki talaş dedektörü yağ devresinde; seçimleri Faz 2'de.,The filter and two chip detectors are in the oil circuit; they are chosen in Phase 2.
+LUB-06,met,"Tank 6,66 L: 5,69 L kullanılabilir yağ (30 saatlik tüketim ve 0,5 L tüyleme yedeği dahil), %10 genleşme hacmi, seviye algılayıcısı.","Tank 6.66 L: 5.69 L usable oil (30 hours of consumption and the 0.5 L feathering reserve included), 10% expansion space, level sensor."
+LUB-07,open,Hedef; yağsız çalışma Faz 2'de incelenecek.,A goal; running without oil is studied in Phase 2.
+LUB-08,tbd,Negatif g süresi uçak üreticisinden gelecek.,The negative g duration comes from the aircraft maker.
+LUB-09,open,"Hava debisi 0,715 kg/s; kaynak Faz 2'de seçilecek.",Air flow 0.715 kg/s; the source is chosen in Phase 2.
+LUB-10,open,Arka yatak RGB yağ devresine bağlandı; debisi Faz 2'de.,The rear bearing is on the RGB oil circuit; its flow follows in Phase 2.
+ACC-01,open,T700'ün AGB'si değişmiyor; marş torku Faz 2'de.,The T700 AGB does not change; the starting torque follows in Phase 2.
+ACC-02,met,"Dört ped boyutlandı: jeneratör 11.964,9 rpm (CT7-9 oranından −%0,5), aşırı hız regülatörü 8.375,4 rpm, pervane kontrol ünitesi 1.698,6 rpm, yağ pompaları 6.200 rpm.","Four pads sized: generator 11,964.9 rpm (−0.5% from the CT7-9 ratio), overspeed governor 8,375.4 rpm, propeller control unit 1,698.6 rpm, oil pumps 6,200 rpm."
+ACC-03,partial,"1,5 kat torkta yorulma (en düşük S_H 1,994) ve kesme boyunları (jeneratörde 10,48 mm) hesaplandı; sızdırmazlık ve söküm Faz 2'de.",Fatigue at 1.5 times the torque (lowest S_H 1.994) and the shear necks (10.48 mm on the generator) are calculated; sealing and removal follow in Phase 2.
+PIF-01,tbd,Flanş ölçüleri pervane üreticisinden gelecek.,The flange dimensions come from the propeller maker.
+PIF-02,tbd,Yol içi boş pervane milinden; debi ve basınç pervane üreticisinden gelecek (1.4'te 5 L/min kabul edildi).,The route is through the hollow propeller shaft; flow and pressure come from the propeller maker (step 1.4 assumed 5 L/min).
+PIF-03,open,"Tankta 0,5 L tüyleme yedeği var; test Faz 3'te.",The tank holds a 0.5 L feathering reserve; the test is in Phase 3.
+PIF-04,open,Tasarımda beta modu yok; Faz 2'de incelemeyle kapanacak.,The design has no beta mode; closed by inspection in Phase 2.
+PIF-05,tbd,Regülatör pedi var; ayar değeri pervane üreticisinden gelecek.,The governor pad is there; the setting comes from the propeller maker.
+CTL-01,open,Faz farkı tork ölçeri seçildi (güç türbini milinde); doğruluk Faz 3 testinde.,A phase-shift torque meter on the power turbine shaft was chosen; its accuracy is tested in Phase 3.
+CTL-02,open,Np × 2 ve Nr × 2 algılayıcıların yerleri 1.4'te belirlendi; Faz 2–3'te.,The places of the Np × 2 and Nr × 2 sensors were set in step 1.4; Phases 2 and 3.
+CTL-03,open,Algılayıcı yerleri 1.4'te belirlendi; Faz 2'de.,The sensor places were set in step 1.4; Phase 2.
+MNT-01,tbd,Hedef söküm-takma süresi müşteriden gelecek.,The target removal and installation time comes from the customer.
+MNT-02,open,Faz 2'de.,Phase 2.
+ENV-01,partial,Soğutucu 53 °C günde boyutlandı; −40 °C'de soğuk çalıştırma Faz 2'de.,The cooler is sized on a 53 °C day; cold starts at −40 °C follow in Phase 2.
+ENV-02,open,Faz 2'de.,Phase 2.
+ENV-03,open,Test yöntemleri Faz 2'de seçilecek.,The test methods are chosen in Phase 2.
+ENV-04,tbd,Kurulumun sıcaklıkları çekirdek ve uçak üreticisinden gelecek.,The installation temperatures come from the core and aircraft makers.

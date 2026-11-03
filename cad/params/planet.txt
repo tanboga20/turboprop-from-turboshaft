@@ -1,0 +1,9 @@
+# planet: written by calc/cad_export/cx_export.m, do not edit
+z = 37
+m = 2
+x = 0
+b = 70
+alpha_n = 20
+bore = 53
+d_tip = 78
+d_root = 69

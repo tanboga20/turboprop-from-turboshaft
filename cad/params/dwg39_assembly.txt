@@ -1,0 +1,108 @@
+# written by cad/scripts/make_dwg39.py, do not edit
+TITLE|RGB ASSEMBLY / RGB MONTAJI
+PARTNO|RGB-000
+MAT|see parts list / parca listesine bakiniz
+SOURCE|product:rgb_assembly
+SCALE|0.25
+PAPER|3
+RCUT|170
+TABLE|ASSEMBLY NOTES / MONTAJ NOTLARI
+ROW|1. Catcher-lip axial gap at 20 degC: 0.80-1.00 mm (at least 0.6 mm hot, loaded and pulled
+ROW|  out: 20 degC minimum 0.771 = 0.6 + hot loss 0.026 + loaded pull-out offset 0.145 from the
+ROW|  3.8 axial stack; closes OI-18)
+ROW|2. NJ1024 end play 0.52 mm by a measured selective spacer P120; coupling pre-stretch 0.75 mm
+ROW|  by a measured shim (ICA-22).
+ROW|3. Case flange S601 30 x M6 12.9: torque and lock per drawing; P101 / F201 joint plane
+ROW|  carries the nacelle fire seal (ICD-39).
+ROW|4. Critical parts (CS-E 515) marked on their drawings: PT output shaft F212, RGB input
+ROW|  shaft, P103, P111, P101, P117, couplings F213 / F214.
+TABLE|PARTS LIST / PARCA LISTESI (manufacturing/bom_v1.csv): no. | part | qty | material | kg
+ROW|RGB-P101 | case | 1 | A357 | 10.979
+ROW|RGB-P102 | ring | 1 | N13 | 4.426
+ROW|RGB-P103 | carrier | 1 | S43 | 22.968
+ROW|RGB-P104 | planet_pin | 4 | M5N | 0.000
+ROW|RGB-P105 | sun | 1 | P53 | 2.469
+ROW|RGB-P106 | sun_quill | 1 | S43 | 1.048
+ROW|RGB-P107 | planet | 4 | P53 | 4.500
+ROW|RGB-P108 | planet_rollers | 4 | supplier | 1.391
+ROW|RGB-P109 | brg_NU1024 | 2 | supplier | 4.463
+ROW|RGB-P110 | brg_QJ1024 | 1 | supplier | 2.232
+ROW|RGB-P111 | qj_housing | 1 | Ti64 | 2.815
+ROW|RGB-P112 | nut_KM24 | 1 | S43 | 1.184
+ROW|RGB-P113 | seal_prop | 1 | supplier | 0.461
+ROW|RGB-P114 | ret_tube | 1 | Ti64 | 3.549
+ROW|RGB-P115 | prop_flange | 1 | S43 | 3.944
+ROW|RGB-F201 | fs_case | 1 | A357 | 8.972
+ROW|RGB-F202 | gear2 | 1 | P53 | 5.079
+ROW|RGB-F203 | pinion | 1 | P53 | 2.144
+ROW|RGB-F204 | mid_shaft | 1 | P53 | 1.987
+ROW|RGB-F205 | brg_NU2210 | 2 | supplier | 1.141
+ROW|RGB-F206 | brg_NU2209 | 2 | supplier | 1.059
+ROW|RGB-F207 | brg_QJ210 | 1 | supplier | 0.496
+ROW|RGB-F208 | brg_QJ209 | 1 | supplier | 0.437
+ROW|RGB-F209 | nut_KM10 | 1 | S43 | 0.162
+ROW|RGB-F210 | nut_KM9 | 1 | S43 | 0.135
+ROW|RGB-F211 | seal_input | 1 | supplier | 0.158
+ROW|RGB-A301 | acc_cover | 1 | A357 | 1.183
+ROW|RGB-A302 | gen_gear | 1 | P53 | 1.338
+ROW|RGB-A303 | gen_shaft | 1 | P53 | 0.516
+ROW|RGB-A304 | gen_cartridge | 1 | A357 | 1.831
+ROW|RGB-A305 | brg_6305 | 2 | supplier | 0.485
+ROW|RGB-A306 | seal_gen | 1 | supplier | 0.071
+ROW|RGB-A307 | quill_gen | 1 | S43 | 0.094
+ROW|RGB-A308 | osg_gear | 1 | P53 | 0.173
+ROW|RGB-A309 | osg_adapter | 1 | S43 | 0.529
+ROW|RGB-A310 | brg_6202 | 2 | supplier | 0.097
+ROW|RGB-A311 | quill_osg | 1 | S43 | 0.053
+ROW|RGB-A312 | pcu_gear | 1 | P53 | 0.778
+ROW|RGB-A313 | pcu_adapter | 1 | S43 | 0.480
+ROW|RGB-A314 | brg_6203 | 2 | supplier | 0.139
+ROW|RGB-A315 | quill_pcu | 1 | S43 | 0.066
+ROW|RGB-A316 | pump_pack | 1 | supplier | 2.200
+ROW|RGB-A317 | quill_pump | 1 | S43 | 0.052
+ROW|RGB-L401 | oil_jets | 26 | C155 | 0.052
+ROW|RGB-L402 | oil_tubes | 1 | C321 | 1.047
+ROW|RGB-L403 | transfer_sleeve | 1 | S43 | 0.583
+ROW|RGB-L404 | pitch_tube | 1 | Ti64 | 0.235
+ROW|RGB-E501 | mist_accumulator | 1 | Ti64 | 0.600
+ROW|RGB-E502 | mist_valve | 1 | supplier | 0.300
+ROW|RGB-E503 | mist_lines | 1 | C321 | 0.600
+ROW|RGB-E504 | bleed_line | 1 | C321 | 1.000
+ROW|RGB-E505 | mist_oil | 1 | oil | 0.280
+ROW|RGB-H701 | hums | 1 | supplier | 0.800
+ROW|RGB-L405 | filter_valves | 1 | supplier | 0.900
+ROW|RGB-S600 | fasteners | 1 | A286 | 1.958
+ROW|RGB-S640 | extras_card_B | 1 | S43 | 1.805
+ROW|RGB-S601 | fastener | 30 | S129 | 0.252
+ROW|RGB-S602 | fastener | 24 | A286 | 0.111
+ROW|RGB-S603 | fastener | 12 | A286 | 0.217
+ROW|RGB-S604 | fastener | 12 | A286 | 0.085
+ROW|RGB-S605 | fastener | 12 | A286 | 0.072
+ROW|RGB-S606 | fastener | 8 | A286 | 0.057
+ROW|RGB-S607 | fastener | 6 | A286 | 0.142
+ROW|RGB-S608 | fastener | 8 | A286 | 0.078
+ROW|RGB-S609 | fastener | 10 | A286 | 0.097
+ROW|RGB-S610 | fastener | 4 | A286 | 0.033
+ROW|RGB-S611 | fastener | 24 | A286 | 0.096
+ROW|RGB-S612 | fastener | 20 | A286 | 0.066
+ROW|RGB-S621 | seat_liner | 2 | S43 | 0.568
+ROW|RGB-S622 | seat_liner | 2 | S43 | 0.191
+ROW|RGB-S623 | seat_liner | 2 | S43 | 0.202
+ROW|RGB-S624 | seat_liner | 1 | S43 | 0.081
+ROW|RGB-S625 | seat_liner | 1 | S43 | 0.090
+ROW|RGB-S626 | seat_liner | 2 | S43 | 0.087
+ROW|RGB-S627 | seat_liner | 1 | S43 | 0.018
+ROW|RGB-S628 | seat_liner | 2 | S43 | 0.043
+ROW|RGB-S650 | o_rings | 1 | supplier | 0.000
+ROW|RGB-X801 | oil_cooler | 1 | supplier | 4.400
+ROW|RGB-X802 | oil_tank | 1 | supplier | 1.600
+ROW|RGB-F212 | pt_shaft | 1 | S43 | 1.600
+ROW|RGB-F213 | coupling_pt | 1 | C155 | 1.200
+ROW|RGB-F214 | coupling_rgb | 1 | C155 | 1.200
+ROW|RGB-P116 | nose_cover | 1 | Ti64 | 0.277
+ROW|RGB-P117 | shoulder_ring | 1 | S43 | 0.300
+ROW|RGB-P118 | collar | 1 | S43 | 0.160
+ROW|RGB-P119 | qj_retainer | 1 | Ti64 | 0.050
+ROW|RGB-P120 | nj_spacer | 1 | S43 | 0.070
+ROW|RGB-S613 | fastener | 8 | A286 | 0.040
+ROW|RGB-H704 | thermocouples | 1 | supplier | 0.080

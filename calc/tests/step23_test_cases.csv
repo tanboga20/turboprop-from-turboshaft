@@ -1,0 +1,13 @@
+tc,quantity,expected,unit
+TC30,f1,50.0018,Hz
+TC30,f2,85.9642,Hz
+TC30,f3,413.829,Hz
+TC30,f4,839.118,Hz
+TC30,f5,2730.02,Hz
+TC30,f6,4083.77,Hz
+TC31,ratio_gear2,0.281818,-
+TC31,ratio_generator,0.54386,-
+TC31,ratio_carrier,0.0773282,-
+TC31,ratio_planet,0.171376,-
+TC32,peak_prop_shaft_0p2s,26130.3,N m
+TC32,T_qs_0p2s,13361.3,N m

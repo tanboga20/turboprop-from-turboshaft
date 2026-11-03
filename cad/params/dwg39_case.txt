@@ -1,0 +1,89 @@
+# written by cad/scripts/make_dwg39.py, do not edit
+TITLE|PLANETARY CASE P101, CAST + MACHINED / PLANET GOVDESI P101
+PARTNO|RGB-P101
+MAT|A357.0-T6 premium sand casting (AMS-A-21180), HIP
+SOURCE|part:case
+SCALE|0.25
+PAPER|4
+RCUT|170
+TABLE|DESIGN DATA / TASARIM VERILERI
+ROW|Attachment flange: OD 325, PCD 308, 30 x M6 12.9 into helical coil inserts in F201, 12 mm
+ROW|  flange (3.6 design change)
+ROW|Mount pads: interface TBD with the airframer, LD-08 (ICD-24; open item OI-14)
+ROW|Rear wall: a separate plate clamped in the P101 / F201 joint (open item OI-16; no 3.7 credit
+ROW|  depends on an integral wall)
+ROW|NJ1024 thermocouple boss: raised 12 mm pad round the hole (3.7 D4 location 11)
+TABLE|RING GEAR SEAT FIT / HALKA DISLI YUVASI GECMESI (fits_ring_seat_v1.csv)
+ROW|cold soak: interference 175-202 um, p 4.33-5.02 MPa
+ROW|ground idle: interference 87-114 um, p 2.15-2.83 MPa
+ROW|cruise 50%: interference 33-61 um, p 0.83-1.51 MPa
+ROW|MCT, oil 132: interference 10-37 um, p 0.24-0.92 MPa
+ROW|LD-02, oil 149, 15 min: interference 2-29 um, p 0.05-0.73 MPa
+DIM|sect|-129.5|-60|129.5|-60|1
+DIM|sect|-90|-150|90|-150|1
+DIM|sect|-90|-430|90|-430|1
+DIM|sect|140|0|140|-446|0
+DIM|end|-129.5|0|129.5|0|1
+ROW|Dimensions on the views are the main sizes from the model; all other sizes are in the
+ROW|  tables. The flange is not dimensioned on the views: the CAD still has the Phase 2 flange
+ROW|  (PCD 290); the 3.6 flange (PCD 308, OD 325, R10 outer / R5 inner) is in the design data
+ROW|  table (CAD update open, OI-16).
+TABLE|TOLERANCES AND CALLOUTS / TOLERANSLAR (tolerances_v1.csv; GD&T frames as this table, R19)
+ROW|mount flange face, datum A: flatness = 0.030 mm | -
+ROW|flange pilot, datum B; dowel, datum C: datum feature = A, B, C
+ROW|ring gear seat bore dia 259: cylindricity = 0.012 mm | -
+ROW|ring gear seat bore: position (diametral zone) = 0.020 mm | A|B
+ROW|NU1024 liner bores (two): position (diametral zone) = 0.015 mm | A|B
+ROW|ring seat shoulder: perpendicularity = 0.010 mm | A
+ROW|ring gear seat dia 259: limit dimensions (bore / ring) = bore -230 / -262 um, ring h5
+ROW|assembly: drawing note = heat the case to 110 +- 10 degC (at least 76 degC; never above 150
+ROW|  degC)
+TABLE|MATERIAL AND PROCESS / MALZEME VE PROSES (materials_v1.csv, A357)
+ROW|Material: A357.0-T6 aluminium, premium-quality sand casting
+ROW|Specification: AMS-A-21180 (class giving at least 310 MPa tensile and 240 MPa yield in the
+ROW|  designated areas, the step 2.8 allowables; class number TBR)
+ROW|Condition: Sand cast (bonded sand cores for the oil passages, chills at the bearing bosses),
+ROW|  solution treated, quenched, artificially aged (T6, AMS 2771); optional hot isostatic
+ROW|  pressing (TBR)
+ROW|Hardness and case: Not applicable (about 85-95 HB); steel seat liners in the bearing bores
+ROW|Surface texture: Machined faces Ra 1.6 um; bearing liner bores Ra 0.8 um; flange face
+ROW|  flatness 0.03 mm (TBR)
+ROW|NDT: Radiography 100% (ASTM E1742, grading to ASTM E155 reference radiographs): AMS 2175
+ROW|  grade B in the critical zones (flange root, conical nose, bearing bosses, ring seat), grade
+ROW|  C elsewhere (TBR, STR-10); fluorescent penetrant (ASTM E1417); separately cast test bars
+ROW|  from each melt and coupons cut from a casting per lot; oil passages pressure tested at 1650
+ROW|  kPa (1.5 x the 1100 kPa relief, TBR)
+ROW|Protection: Outside: chromate-free conversion coating (MIL-DTL-5541 Type II) + epoxy primer
+ROW|  (MIL-PRF-23377, non-chromate) + topcoat (MIL-PRF-85285); oil-wetted inside: conversion
+ROW|  coating only; faying surfaces with steel and titanium parts installed wet with a corrosion-
+ROW|  inhibiting sealant (ENV-03)
+TABLE|CRITICAL PART / KRITIK PARCA (CS-E 515; safety/critical_parts_v1.csv)
+ROW|Mark: CRITICAL PART - CS-E 515 / KRITIK PARCA; serial number on the part; life tracking:
+ROW|  serial number on the part, flight cycles and hours counted by the engine monitoring unit (1
+ROW|  cycle per flight, plus each LD-01 exceedance), life limit in the ICA airworthiness
+ROW|  limitations section
+ROW|Life limit: 20,000 flight cycles declared; basis: the GAG stress range at each governing
+ROW|  feature is below the -3 sigma crack-initiation endurance of that material and process (cited
+ROW|  data; A357: validated casting quality)
+ROW|NDT at manufacture: critical zones of every P101 casting (R10 flange junction, nose, mount
+ROW|  flange and pads) at the 0.5 mm pore limit by CT (preferred) or radiography at quality level
+ROW|  1-2T or better (ASTM E1742 with E1025 IQIs, POD of 0.5 mm demonstrated); elsewhere 100%
+ROW|  radiography at 0.8 mm (PR-10); FPI level 3 after etch (NER 12, 13)
+ROW|NDT at TBO: FPI and visual of the flange junction and the nose at each TBO; HUMS A1 trend;
+ROW|  NDT at TBO after stripping the coating (NASA-STD-5009C sizes credited only under NER 12, 13
+ROW|  and 21, otherwise a demonstrated POD)
+ROW|D4 governing locations: Planetary case at the R10 flange junction; Planetary case nose at
+ROW|  the NJ1024 thermocouple boss
+TABLE|NOTES / NOTLAR
+ROW|1. HIP of the whole casting, then radiography / CT: P101: every casting after HIP of the
+ROW|  whole casting; critical zones (R10 flange junction, nose, mount flange and pads, zone note
+ROW|  on the 3.9 drawing) at a 0.5 mm pore limit by CT (preferred) or radiography at quality level
+ROW|  1-2T or better (ASTM E1742 with E1025 IQIs; POD of 0.5 mm demonstrated, 90/95), elsewhere
+ROW|  100% radiography at 0.8 mm; other castings: grade B critical zones, grade C elsewhere, 100%
+ROW|  on first articles, then by sampling (TBR, STR-10)
+ROW|2. Critical zones (R10 flange junction, nose, mount flange and pads): pore limit 0.5 mm;
+ROW|  elsewhere 0.8 mm.
+ROW|3. Fire: the P101 / F201 joint plane carries the nacelle fire seal (ICD-39); fire-rated
+ROW|  secondary seal at the joint (open item OI-05).
+ROW|4. CAD views from the Phase 2 model; the tables and notes govern where they differ (3.9 CAD
+ROW|  update open).

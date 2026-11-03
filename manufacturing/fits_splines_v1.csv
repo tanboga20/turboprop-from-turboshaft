@@ -1,0 +1,36 @@
+spline,m,z,D_mm,fit,T_lambda_um,es_v_um,state,clear_min_um,clear_max_um
+sun quill to intermediate shaft (fixed),1.5,30,45,"H/k, class 5",40.5023283606594,2,"cold soak",-2,79.0046567213188
+sun quill to intermediate shaft (fixed),1.5,30,45,"H/k, class 5",40.5023283606594,2,"ground idle",-2,79.0046567213188
+sun quill to intermediate shaft (fixed),1.5,30,45,"H/k, class 5",40.5023283606594,2,"cruise 50%",-2,79.0046567213188
+sun quill to intermediate shaft (fixed),1.5,30,45,"H/k, class 5",40.5023283606594,2,"MCT, oil 132",-2,79.0046567213188
+sun quill to intermediate shaft (fixed),1.5,30,45,"H/k, class 5",40.5023283606594,2,"LD-02, oil 149, 15 min",-2,79.0046567213188
+sun quill to sun (crowned),1.5,30,45,"H/f, class 5",40.5023283606594,-25,"cold soak",25,106.004656721319
+sun quill to sun (crowned),1.5,30,45,"H/f, class 5",40.5023283606594,-25,"ground idle",25.309171069151,106.31382779047
+sun quill to sun (crowned),1.5,30,45,"H/f, class 5",40.5023283606594,-25,"cruise 50%",25.7729276728776,106.777584394196
+sun quill to sun (crowned),1.5,30,45,"H/f, class 5",40.5023283606594,-25,"MCT, oil 132",26.2676013835193,107.272258104838
+sun quill to sun (crowned),1.5,30,45,"H/f, class 5",40.5023283606594,-25,"LD-02, oil 149, 15 min",27.0096119494818,108.014268670801
+PT shaft coupling to the input pinion,1.5,24,36,"H/h, class 5",39.26498111048,0,"cold soak",0,78.5299622209599
+PT shaft coupling to the input pinion,1.5,24,36,"H/h, class 5",39.26498111048,0,"ground idle",0,78.5299622209599
+PT shaft coupling to the input pinion,1.5,24,36,"H/h, class 5",39.26498111048,0,"cruise 50%",0,78.5299622209599
+PT shaft coupling to the input pinion,1.5,24,36,"H/h, class 5",39.26498111048,0,"MCT, oil 132",0,78.5299622209599
+PT shaft coupling to the input pinion,1.5,24,36,"H/h, class 5",39.26498111048,0,"LD-02, oil 149, 15 min",0,78.5299622209599
+generator quill,1,22,22,"H/f, class 6",54.1056978691109,-20,"cold soak",20,128.211395738222
+generator quill,1,22,22,"H/f, class 6",54.1056978691109,-20,"ground idle",20,128.211395738222
+generator quill,1,22,22,"H/f, class 6",54.1056978691109,-20,"cruise 50%",20,128.211395738222
+generator quill,1,22,22,"H/f, class 6",54.1056978691109,-20,"MCT, oil 132",20,128.211395738222
+generator quill,1,22,22,"H/f, class 6",54.1056978691109,-20,"LD-02, oil 149, 15 min",20,128.211395738222
+OSG quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"cold soak",16,110.89483356268
+OSG quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"ground idle",16,110.89483356268
+OSG quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"cruise 50%",16,110.89483356268
+OSG quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"MCT, oil 132",16,110.89483356268
+OSG quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"LD-02, oil 149, 15 min",16,110.89483356268
+PCU quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"cold soak",16,110.89483356268
+PCU quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"ground idle",16,110.89483356268
+PCU quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"cruise 50%",16,110.89483356268
+PCU quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"MCT, oil 132",16,110.89483356268
+PCU quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"LD-02, oil 149, 15 min",16,110.89483356268
+oil pump quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"cold soak",16,110.89483356268
+oil pump quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"ground idle",16,110.89483356268
+oil pump quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"cruise 50%",16,110.89483356268
+oil pump quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"MCT, oil 132",16,110.89483356268
+oil pump quill,0.8,14,11.2,"H/f, class 6",47.4474167813398,-16,"LD-02, oil 149, 15 min",16,110.89483356268

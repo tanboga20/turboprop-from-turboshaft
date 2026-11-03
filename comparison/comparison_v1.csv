@@ -1,0 +1,17 @@
+id,quantity_en,quantity_tr,this_design,CT7-9B/C,PT6A-67A,basis
+ratio,Reduction ratio,Redüksiyon oranı,"12.93 (22,000 / 1,700 rpm)","15.90 (22,000 / 1,384 rpm)","17.58 (29,894 / 1,700 rpm)",speeds from the data sheets; CT7-9 speed ratio 0.06291 (pad table)
+power,"Power, kW (take-off)","Güç, kW (kalkış)",895 (flat-rated),"1,305 (1,394 APR)",895,"TCDS ratings, sea level"
+torque,"Propeller torque, N m","Pervane torku, N m",5027,9004 (from power and speed),5028 (data sheet; transient 6915),"CT7-9 torque = 1,305 kW at 1,384 rpm"
+mass,"Gearbox mass, kg","Dişli kutusu kütlesi, kg",109.95 (SYS-06 roll-up; + 5.46 input drive),170.5 (derived upper bound),57-72 (derived estimate),not in either data sheet: derived from the dry weights (see the method)
+power_density,"Power density, kW/kg","Güç yoğunluğu, kW/kg",8.14,"7.65 (MCP), 8.18 (APR)",12.5-15.7,power over gearbox mass
+torque_density,"Torque density, N m/kg","Tork yoğunluğu, N m/kg",45.7,52.8,70-88,propeller torque over gearbox mass
+scaled,"CT7-9 gearbox scaled to our torque, kg","Torkumuza ölçeklenmiş CT7-9 dişli kutusu, kg",109.95,95-110,-,"m = 170.5 (T / 9,004)^k, k 0.75-1.0"
+layout,Layout,Düzen,"offset helical first stage 31/110 (PT axis 146 mm below) + planetary 45/37/119, 4 planets, fixed ring, carrier drives the propeller","front drive, integral propeller gearbox forward of the core; stages not public","2-stage reduction gearbox, coaxial (planetary)",TCDS descriptions; our design records
+accessories,Accessories on the gearbox,Dişli kutusundaki aksesuarlar,"generator, OSG, PCU, oil pumps (10.09 kg of drives)","AC generator, hydraulic pump, OSG, PCU",propeller governor and overspeed governor; the generator is on the rear gearbox driven by the gas generator,CT7-9: TCDS pad table; PT6A: TCDS (separate accessory gearbox) and the known PT6 layout; ours: step 2.6
+size,"Size, mm","Boyut, mm","RGB about 798 long (accessory cover to propeller flange), case flange OD 325",engine 2438 x 660 x 737 with the gearbox; gearbox and drive about 1244 long (derived),"engine 1888.5 long, 466.1 diameter","TCDS dimensions; CT7-9 gearbox length = 2,438 - 1,194 (CT7-2A)"
+efficiency,Efficiency at max. continuous,Azami sürekli güçte verim,98.71% (losses 12.39 kW),not published,not published,our step 2.7 / CDR SYS-05
+heat,"Heat into the oil, kW","Yağa giden ısı, kW",14.9 (incl. PT rear sump 1.2),not published,not published,our step 2.7
+oil,Oil system,Yağ sistemi,separate RGB system with emergency mist (LUB-07),self-contained engine system,one engine oil system,"CT7-9: TCDS description; PT6A: TCDS oil limits for the whole engine; ours: steps 2.7, 3.2"
+tbo,"TBO, h","TBO, sa",4000 (STR-05) with HUMS on condition between,"no fixed TBO (GE, CT7 family)","set by P&WC SB14603 (not public); sibling -67R 6,000 h initial",GE CT7 page; TCDS note 5; Basler Turbo
+engine_mass,"Engine dry mass, kg","Motor kuru kütlesi, kg",about 315 (T700-class core 198 + RGB 109.95 + input drive 5.46 + oil tank 1.6; ICD-34),365.1,229.5,data sheets; core T700-GE-700 437 lb (Phase 0)
+payload,"Payload cost on the Heron TP, kg","Heron TP'de faydalı yük bedeli, kg","85.5 more than the PT6A-67A installation: 3.2% of the 2,700 kg maximum payload, 1.5% of the 5,670 kg MTOW",-,reference (flies on the Heron TP today),IAI Heron TP page; at fixed MTOW the extra mass comes out of payload and fuel

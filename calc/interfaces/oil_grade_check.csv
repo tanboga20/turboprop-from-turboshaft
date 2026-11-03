@@ -1,0 +1,103 @@
+kind,oil,T_C,item,value
+grade,MIL-PRF-23699,60,S_S first stage,3.11262
+grade,MIL-PRF-23699,60,lambda_C first stage,3.0872
+grade,MIL-PRF-23699,60,S_S sun-planet,4.444
+grade,MIL-PRF-23699,60,lambda_C sun-planet,1.04204
+grade,MIL-PRF-23699,60,S_S planet-ring,18.2006
+grade,MIL-PRF-23699,60,lambda_C planet-ring,1.79595
+grade,MIL-PRF-23699,60,L10m input roller,707033
+grade,MIL-PRF-23699,60,L10m input QJ,238720
+grade,MIL-PRF-23699,60,L10m intermediate roller,728381
+grade,MIL-PRF-23699,60,L10m intermediate QJ,1.3335e+06
+grade,MIL-PRF-23699,60,L10m propeller inner roller,1.73522e+07
+grade,MIL-PRF-23699,60,L10m propeller outer roller,9.87837e+06
+grade,MIL-PRF-23699,60,L10m propeller QJ,102062
+grade,MIL-PRF-23699,60,L10m planet,369271
+grade,MIL-PRF-23699,100,S_S first stage,2.23709
+grade,MIL-PRF-23699,100,lambda_C first stage,1.53678
+grade,MIL-PRF-23699,100,S_S sun-planet,3.19397
+grade,MIL-PRF-23699,100,lambda_C sun-planet,0.529401
+grade,MIL-PRF-23699,100,S_S planet-ring,13.0811
+grade,MIL-PRF-23699,100,lambda_C planet-ring,0.849962
+grade,MIL-PRF-23699,100,L10m input roller,308217
+grade,MIL-PRF-23699,100,L10m input QJ,123994
+grade,MIL-PRF-23699,100,L10m intermediate roller,74924.7
+grade,MIL-PRF-23699,100,L10m intermediate QJ,223167
+grade,MIL-PRF-23699,100,L10m propeller inner roller,350557
+grade,MIL-PRF-23699,100,L10m propeller outer roller,228831
+grade,MIL-PRF-23699,100,L10m propeller QJ,35024.4
+grade,MIL-PRF-23699,100,L10m planet,14527.7
+grade,MIL-PRF-23699,132,S_S first stage,1.61355
+grade,MIL-PRF-23699,132,lambda_C first stage,1.01446
+grade,MIL-PRF-23699,132,S_S sun-planet,2.30373
+grade,MIL-PRF-23699,132,lambda_C sun-planet,0.35286
+grade,MIL-PRF-23699,132,S_S planet-ring,9.43503
+grade,MIL-PRF-23699,132,lambda_C planet-ring,0.547867
+grade,MIL-PRF-23699,132,L10m input roller,61211.9
+grade,MIL-PRF-23699,132,L10m input QJ,38467.7
+grade,MIL-PRF-23699,132,L10m intermediate roller,15684.9
+grade,MIL-PRF-23699,132,L10m intermediate QJ,41889.6
+grade,MIL-PRF-23699,132,L10m propeller inner roller,114815
+grade,MIL-PRF-23699,132,L10m propeller outer roller,78905.8
+grade,MIL-PRF-23699,132,L10m propeller QJ,23903.3
+grade,MIL-PRF-23699,132,L10m planet,5758.03
+grade,MIL-PRF-7808,60,S_S first stage,2.37755
+grade,MIL-PRF-7808,60,lambda_C first stage,1.75215
+grade,MIL-PRF-7808,60,S_S sun-planet,3.3945
+grade,MIL-PRF-7808,60,lambda_C sun-planet,0.598694
+grade,MIL-PRF-7808,60,S_S planet-ring,13.9024
+grade,MIL-PRF-7808,60,lambda_C planet-ring,0.989567
+grade,MIL-PRF-7808,60,L10m input roller,420494
+grade,MIL-PRF-7808,60,L10m input QJ,151611
+grade,MIL-PRF-7808,60,L10m intermediate roller,161841
+grade,MIL-PRF-7808,60,L10m intermediate QJ,462214
+grade,MIL-PRF-7808,60,L10m propeller inner roller,935549
+grade,MIL-PRF-7808,60,L10m propeller outer roller,580645
+grade,MIL-PRF-7808,60,L10m propeller QJ,47149.8
+grade,MIL-PRF-7808,60,L10m planet,33030
+grade,MIL-PRF-7808,100,S_S first stage,1.58124
+grade,MIL-PRF-7808,100,lambda_C first stage,0.990661
+grade,MIL-PRF-7808,100,S_S sun-planet,2.25759
+grade,MIL-PRF-7808,100,lambda_C sun-planet,0.34403
+grade,MIL-PRF-7808,100,S_S planet-ring,9.24606
+grade,MIL-PRF-7808,100,lambda_C planet-ring,0.537496
+grade,MIL-PRF-7808,100,L10m input roller,60491.2
+grade,MIL-PRF-7808,100,L10m input QJ,38111.2
+grade,MIL-PRF-7808,100,L10m intermediate roller,15637.9
+grade,MIL-PRF-7808,100,L10m intermediate QJ,41747.3
+grade,MIL-PRF-7808,100,L10m propeller inner roller,114397
+grade,MIL-PRF-7808,100,L10m propeller outer roller,78631.1
+grade,MIL-PRF-7808,100,L10m propeller QJ,23870.8
+grade,MIL-PRF-7808,100,L10m planet,5739.83
+grade,MIL-PRF-7808,132,S_S first stage,0.996991
+grade,MIL-PRF-7808,132,lambda_C first stage,0.699989
+grade,MIL-PRF-7808,132,S_S sun-planet,1.42344
+grade,MIL-PRF-7808,132,lambda_C sun-planet,0.245023
+grade,MIL-PRF-7808,132,S_S planet-ring,5.82977
+grade,MIL-PRF-7808,132,lambda_C planet-ring,0.372472
+grade,MIL-PRF-7808,132,L10m input roller,13410.9
+grade,MIL-PRF-7808,132,L10m input QJ,10700.1
+grade,MIL-PRF-7808,132,L10m intermediate roller,10619.6
+grade,MIL-PRF-7808,132,L10m intermediate QJ,26792.9
+grade,MIL-PRF-7808,132,L10m propeller inner roller,71718.9
+grade,MIL-PRF-7808,132,L10m propeller outer roller,50282.5
+grade,MIL-PRF-7808,132,L10m propeller QJ,19870.6
+grade,MIL-PRF-7808,132,L10m planet,3819.44
+cooler,-,,UA W/K,419.025
+cooler,-,,C_oil W/K,730.898
+cooler,-,,C_air W/K,725.04
+cooler,-,,eps,0.346603
+cooler,-,53,inlet with the whole cooler at 14.9 kW,91.91
+cooler,-,53,inlet with the thermostat at 14.9 kW,91.91
+cooler,-,-20,inlet with the whole cooler at 14.9 kW,18.91
+cooler,-,-20,inlet with the thermostat at 14.9 kW,60
+cooler,-,-40,inlet with the whole cooler at 14.9 kW,-1.094
+cooler,-,-40,inlet with the thermostat at 14.9 kW,60
+cooler,-,73,ambient for this inlet at 14.9 kW,34.09
+cooler,-,53,inlet with the whole cooler at 18 kW,100
+cooler,-,53,inlet with the thermostat at 18 kW,100
+cooler,-,-20,inlet with the whole cooler at 18 kW,27
+cooler,-,-20,inlet with the thermostat at 18 kW,60
+cooler,-,-40,inlet with the whole cooler at 18 kW,7
+cooler,-,-40,inlet with the thermostat at 18 kW,60
+cooler,-,73,ambient for this inlet at 18 kW,26

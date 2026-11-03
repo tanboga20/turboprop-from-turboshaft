@@ -1,0 +1,26 @@
+# gear2_ring: written by calc/dynamics/dy_ring_export.m (step 3.6), do not edit
+# groove in the rim bore of the first-stage gear (RGB-F202) and the split damping ring; mm, um, kg, N/m
+# drawing notes (3.9): groove root radius both corners, no grinding burn on the groove (temper etch), split ends deburred;
+# anti-rotation tab at the split in a slot of the groove land (+-0.2 mm); balance the gear with the ring fitted, orientation marked
+groove_d = 209.961
+groove_z = 46
+groove_w = 4.1
+rim_beyond = 3.95
+groove_depth = 1
+groove_root_r = 0.3
+groove_Ra = 0.8
+sR = 6
+sR_ht = 1.33333
+sR_ht_ok = 1
+ring_h = 8
+ring_w = 4
+ring_od_free = 212.06
+ring_id = 193.961
+split_gap = 1
+anti_rotation = tab at the split in a slot of the groove land, +-0.2 mm circumferential clearance
+split_unbalance_gmm = 26.0533
+balance = balance the gear with the ring fitted; mark the ring orientation
+proud = 7
+mass = 0.163698
+preload_100 = 10982.6
+material = AISI 4340, 38-42 HRC

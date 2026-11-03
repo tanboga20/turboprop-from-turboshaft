@@ -1,0 +1,10 @@
+# ring: written by calc/cad_export/cx_export.m, do not edit
+z = 119
+m = 2
+x = 0
+ha = 0.9
+b = 70
+alpha_n = 20
+rim = 8
+d_tip = 234.4
+d_root = 243

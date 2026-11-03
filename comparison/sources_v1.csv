@@ -1,0 +1,6 @@
+id,source,url,used_for
+S1,EASA TCDS IM.E.010 Issue 10 (19 Dec 2025),https://www.easa.europa.eu/en/downloads/7783/en,"CT7-9 ratings, propeller speed, speed ratio, dry weights (CT7-9B/C, CT7-2A), dimensions, pad list"
+S2,EASA TCDS IM.E.008 Issue 06 (18 Feb 2022),https://www.easa.europa.eu/en/downloads/7787/en,"PT6A-67A and -66 ratings, torque limits, speeds, dry weights, dimensions, gearbox description, TBO note"
+S3,"GE Aerospace, CT7 engine page",https://www.geaerospace.com/commercial/aircraft-engines/ct7,no time between overhauls (CT7/T700 family)
+S4,"Basler Turbo Conversions, power and performance",https://www.baslerturbo.com/power-and-performance.html,"PT6A-67R TBO 6,000 h initial"
+S5,"IAI, Heron TP product page",https://www.iai.co.il/p/heron-tp,"MTOW 5,670 kg, maximum payload 2,700 kg, 1,200 hp PT6 powerplant"

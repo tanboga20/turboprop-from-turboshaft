@@ -1,0 +1,8 @@
+effect_en,effect_tr,fmea,rate_per_h,remote,source
+"Oil fire risk (oil on hot parts)","Yağ yangını riski (sıcak parçalara yağ)","FM43, FM44, FM45, FM68, FM69, FM70",3e-06,1,"TBR: tubes 1e-6, hoses 1e-6, tank 5e-7, rear-sump and seal leaks 5e-7 (engineering estimate)"
+"Uncommanded feather or loss of pitch control","İstenmeyen tüyleme veya hatve kontrolü kaybı","FM37, FM55, FM57, FM59, FM61, FM63, FM64",7e-06,1,"TBR: loss of the RGB supply 5e-6 (pump 2e-6, tubes 1e-6, hoses 1e-6, tank 5e-7, pump quill 5e-7), PCU drive 1e-6, L403 / L404 leak or blockage 1e-6; E7 of D1 takes 2 x 5e-6 as a bound"
+"Standby retention path loaded (propeller held by the tube or lip)","Yedek tutma yolu yüklü (pervane tüp veya dudakla tutulur)","FM19, FM20, FM22, FM24",1.2e-06,1,"D1 rates: E1 1e-7, E6 1e-6, E4 1e-8, E7 1e-7"
+"Over-power (torque meter bias)","Aşırı güç (tork ölçer sapması)","FM52",1e-06,1,"TBR: biased signal not caught by the torque-model cross-check"
+"Drive-chain break with the PT overspeed contained (in-flight shutdown)","PT aşırı devri sınırlanan tahrik zinciri kopması (uçuşta kapatma)","FM01, FM04, FM05, FM09, FM13, FM17, FM18, FM21, FM28-FM31",1.2e-06,1,"D1b (a): lam_break"
+"In-flight shutdown from RGB distress (bearings, gears, oil system)","RGB arızasından uçuşta kapatma (rulmanlar, dişliler, yağ sistemi)","FM02, FM03, FM11, FM15, FM23, FM38-FM42, FM62",5e-06,1,"TBR: engineering estimate (main-shaft bearing and gear distress caught by the chip detector, ODM and HUMS)"
+"Spurious shaft-break trip (in-flight shutdown)","Yanlış mil kopması kesmesi (uçuşta kapatma)","FM74",1e-06,1,"TBR: D1b (a) spurious-trip allowance"

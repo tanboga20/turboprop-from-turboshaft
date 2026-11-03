@@ -1,0 +1,100 @@
+id,quantity,unit,value,base,result,result_unit,limit,margin
+LD-07,"1P moment: propeller bearing L10m (min)",N m,1000,0,35024.3759209566,h,12000,2.91869799341305
+LD-07,"1P moment: propeller shaft n_f",N m,1000,0,6.2882628986759,-,1.5,4.19217526578394
+LD-07,"1P moment: propeller bearing s0 (LD-01)",N m,1000,0,9.01780120175796,-,2,4.50890060087898
+LD-07,"1P moment: propeller bearing L10m (min)",N m,2000,1,35024.3759209566,h,12000,2.91869799341305
+LD-07,"1P moment: propeller shaft n_f",N m,2000,1,4.18387355221109,-,1.5,2.78924903480739
+LD-07,"1P moment: propeller bearing s0 (LD-01)",N m,2000,1,9.01780120175796,-,2,4.50890060087898
+LD-07,"1P moment: propeller bearing L10m (min)",N m,4000,0,18147.996575284,h,12000,1.51233304794033
+LD-07,"1P moment: propeller shaft n_f",N m,4000,0,2.50635349031672,-,1.5,1.67090232687782
+LD-07,"1P moment: propeller bearing s0 (LD-01)",N m,4000,0,9.01780120175796,-,2,4.50890060087898
+LD-07,"1P moment: propeller bearing L10m (min)",N m,6000,0,4047.96083510568,h,12000,0.33733006959214
+LD-07,"1P moment: propeller shaft n_f",N m,6000,0,1.78903973542962,-,1.5,1.19269315695308
+LD-07,"1P moment: propeller bearing s0 (LD-01)",N m,6000,0,9.01780120175796,-,2,4.50890060087898
+PIF-01,"propeller mass: propeller bearing L10m (min)",kg,60,0,35024.3759209566,h,12000,2.91869799341305
+PIF-01,"propeller mass: propeller shaft n_f",kg,60,0,4.24095725862154,-,1.5,2.82730483908103
+PIF-01,"propeller mass: propeller bearing s0 (LD-01)",kg,60,0,9.26718191847437,-,2,4.63359095923719
+PIF-01,"propeller mass: propeller bearing L10m (min)",kg,76.4,1,35024.3759209566,h,12000,2.91869799341305
+PIF-01,"propeller mass: propeller shaft n_f",kg,76.4,1,4.18387355221109,-,1.5,2.78924903480739
+PIF-01,"propeller mass: propeller bearing s0 (LD-01)",kg,76.4,1,9.01780120175796,-,2,4.50890060087898
+PIF-01,"propeller mass: propeller bearing L10m (min)",kg,95,0,35024.3759209566,h,12000,2.91869799341305
+PIF-01,"propeller mass: propeller shaft n_f",kg,95,0,4.12096405832995,-,1.5,2.74730937221997
+PIF-01,"propeller mass: propeller bearing s0 (LD-01)",kg,95,0,8.75072910495496,-,2,4.37536455247748
+PIF-01,"propeller overhang: propeller bearing L10m (min)",mm,200,0,35024.3759209566,h,12000,2.91869799341305
+PIF-01,"propeller overhang: propeller shaft n_f",mm,200,0,4.23700934892471,-,1.5,2.82467289928314
+PIF-01,"propeller overhang: propeller bearing s0 (LD-01)",mm,200,0,9.12175743261077,-,2,4.56087871630539
+PIF-01,"propeller overhang: propeller bearing L10m (min)",mm,250,1,35024.3759209566,h,12000,2.91869799341305
+PIF-01,"propeller overhang: propeller shaft n_f",mm,250,1,4.18387355221109,-,1.5,2.78924903480739
+PIF-01,"propeller overhang: propeller bearing s0 (LD-01)",mm,250,1,9.01780120175796,-,2,4.50890060087898
+PIF-01,"propeller overhang: propeller bearing L10m (min)",mm,300,0,35024.3759209566,h,12000,2.91869799341305
+PIF-01,"propeller overhang: propeller shaft n_f",mm,300,0,4.13205398737147,-,1.5,2.75470265824765
+PIF-01,"propeller overhang: propeller bearing s0 (LD-01)",mm,300,0,8.91618774856493,-,2,4.45809387428246
+LD-06,"manoeuvre load factor: propeller bearing L10m (min)",g,2.5,0,35024.3759209566,h,12000,2.91869799341305
+LD-06,"manoeuvre load factor: propeller shaft n_f",g,2.5,0,4.18387355221109,-,1.5,2.78924903480739
+LD-06,"manoeuvre load factor: propeller bearing s0 (LD-01)",g,2.5,0,9.01780120175796,-,2,4.50890060087898
+LD-06,"manoeuvre load factor: propeller bearing L10m (min)",g,3.17,1,35024.3759209566,h,12000,2.91869799341305
+LD-06,"manoeuvre load factor: propeller shaft n_f",g,3.17,1,4.18387355221109,-,1.5,2.78924903480739
+LD-06,"manoeuvre load factor: propeller bearing s0 (LD-01)",g,3.17,1,9.01780120175796,-,2,4.50890060087898
+LD-06,"manoeuvre load factor: propeller bearing L10m (min)",g,4,0,35024.3759209566,h,12000,2.91869799341305
+LD-06,"manoeuvre load factor: propeller shaft n_f",g,4,0,4.18387355221109,-,1.5,2.78924903480739
+LD-06,"manoeuvre load factor: propeller bearing s0 (LD-01)",g,4,0,9.01780120175796,-,2,4.50890060087898
+LD-06,"manoeuvre load factor: propeller bearing L10m (min)",g,5,0,35024.3759209566,h,12000,2.91869799341305
+LD-06,"manoeuvre load factor: propeller shaft n_f",g,5,0,4.18387355221109,-,1.5,2.78924903480739
+LD-06,"manoeuvre load factor: propeller bearing s0 (LD-01)",g,5,0,9.01780120175796,-,2,4.50890060087898
+LD-06,"manoeuvre load factor: generator pad moment",g,2.5,0,54.936,N m,NaN,NaN
+LD-06,"manoeuvre load factor: generator pad moment",g,3.17,1,69.658848,N m,NaN,NaN
+LD-06,"manoeuvre load factor: generator pad moment",g,4,0,87.8976,N m,NaN,NaN
+LD-06,"manoeuvre load factor: generator pad moment",g,5,0,109.872,N m,NaN,NaN
+LD-08,"PT stopping time: propeller torque peak",s,0.15,0,34838.6666666667,N m,24386,0.69996938267825
+LD-08,"PT stopping time: propeller torque peak",s,0.2,0,26129,N m,24386,0.933292510237667
+LD-08,"PT stopping time: propeller torque peak",s,0.22,1,23753.6363636364,N m,24386,1.02662176126143
+LD-08,"PT stopping time: propeller torque peak",s,0.3,0,17419.3333333333,N m,24386,1.3999387653565
+LD-08,"PT stopping time: propeller torque peak",s,0.5,0,10451.6,N m,24386,2.33323127559417
+ENV-04,"exhaust gas temperature: PT shaft in the tunnel",degC,650,0,120.482110831145,degC,150,1.24499810772924
+ENV-04,"exhaust gas temperature: PT shaft in the tunnel",degC,700,1,124.470203552755,degC,150,1.20510769419947
+ENV-04,"exhaust gas temperature: PT shaft in the tunnel",degC,750,0,128.457645074588,degC,150,1.16770006108164
+ENV-04,"exhaust gas temperature: PT shaft in the tunnel",degC,800,0,132.444429222949,degC,150,1.13255046573155
+PIF-02,"pitch oil flow: spill of the regulating valve at MC",L/min,2.5,0,8.10423976202564,L/min,0,NaN
+PIF-02,"pitch oil flow: manifold at ground idle",L/min,2.5,0,372.133846485082,kPa,34.5,10.7864883039154
+PIF-02,"pitch oil flow: spill of the regulating valve at MC",L/min,5,1,5.38255612590003,L/min,0,NaN
+PIF-02,"pitch oil flow: manifold at ground idle",L/min,5,1,296.456424849639,kPa,34.5,8.59293985071416
+PIF-02,"pitch oil flow: spill of the regulating valve at MC",L/min,7.5,0,2.6581352021361,L/min,0,NaN
+PIF-02,"pitch oil flow: manifold at ground idle",L/min,7.5,0,241.976481210287,kPa,34.5,7.01381104957355
+PIF-02,"pitch oil flow: spill of the regulating valve at MC",L/min,10,0,0,L/min,0,NaN
+PIF-02,"pitch oil flow: manifold at ground idle",L/min,10,0,201.223409703984,kPa,34.5,5.83256260011548
+PIF-02,"pitch oil flow: spill of the regulating valve at MC",L/min,15,0,0,L/min,0,NaN
+PIF-02,"pitch oil flow: manifold at ground idle",L/min,15,0,145.429613374458,kPa,34.5,4.21535111230314
+SYS-03,"ground idle speed: manifold pressure",share of 100%,0.3,0,78.0121782561725,kPa,34.5,2.26122255814993
+SYS-03,"ground idle speed: manifold pressure",share of 100%,0.4,0,135.202662438559,kPa,34.5,3.9189177518423
+SYS-03,"ground idle speed: manifold pressure",share of 100%,0.5,0,208.017411258668,kPa,34.5,6.02949018141067
+SYS-03,"ground idle speed: manifold pressure",share of 100%,0.6,1,296.456424849639,kPa,34.5,8.59293985071416
+SYS-03,"ground idle speed: manifold pressure",share of 100%,0.7,0,401.075817792555,kPa,34.5,11.6253860229726
+LUB-08,"negative-g duration: usable oil needed",s,5,0,2.54716666666667,L,5.69,2.23385460969705
+LUB-08,"negative-g duration: usable oil needed",s,10,0,5.09433333333333,L,5.69,1.11692730484852
+LUB-08,"negative-g duration: usable oil needed",s,20,0,10.1886666666667,L,5.69,0.558463652424262
+LUB-08,"negative-g duration: usable oil needed",s,30,0,15.283,L,5.69,0.372309101616175
+LUB-02,"suction line bore 20 mm: cold pump inlet (sea level, -40 degC)",mm,150,0,-121.579158308307,kPa abs,35,-3.47369023738021
+LUB-02,"suction line bore 25 mm: cold pump inlet (sea level, -40 degC)",mm,150,0,10.9285267389909,kPa abs,35,0.312243621114025
+LUB-02,"suction line bore 32 mm: cold pump inlet (sea level, -40 degC)",mm,150,1,68.6115884639303,kPa abs,35,1.96033109896944
+LUB-02,"suction line bore 20 mm: cold pump inlet (sea level, -40 degC)",mm,300,0,-344.646141899014,kPa abs,35,-9.84703262568612
+LUB-02,"suction line bore 25 mm: cold pump inlet (sea level, -40 degC)",mm,300,0,-80.4397097397627,kPa abs,35,-2.29827742113608
+LUB-02,"suction line bore 32 mm: cold pump inlet (sea level, -40 degC)",mm,300,0,34.5742679697428,kPa abs,35,0.987836227706936
+LUB-02,"suction line bore 20 mm: cold pump inlet (sea level, -40 degC)",mm,450,0,-567.713125489722,kPa abs,35,-16.220375013992
+LUB-02,"suction line bore 25 mm: cold pump inlet (sea level, -40 degC)",mm,450,0,-171.807946218516,kPa abs,35,-4.90879846338618
+LUB-02,"suction line bore 32 mm: cold pump inlet (sea level, -40 degC)",mm,450,0,0.53694747555528,kPa abs,35,0.0153413564444366
+LUB-07,"bleed air temperature: mist time at 75% MCP (20 SCFM)",degC,50,0,428,s,360,1.18888888888889
+LUB-07,"bleed air temperature: mist time at 75% MCP (20 SCFM)",degC,100,1,398,s,360,1.10555555555556
+LUB-07,"bleed air temperature: mist time at 75% MCP (20 SCFM)",degC,150,0,372,s,360,1.03333333333333
+LUB-07,"bleed air temperature: mist time at 75% MCP (20 SCFM)",degC,200,0,349,s,360,0.969444444444444
+STR-02,"planet bearing speed limit of the supplier: margin at 110% speed",rpm,5500,0,6018.65,rpm,5500,0.913826190258613
+STR-02,"planet bearing speed limit of the supplier: margin at 110% speed",rpm,6000,1,6018.65,rpm,6000,0.996901298463941
+STR-02,"planet bearing speed limit of the supplier: margin at 110% speed",rpm,6500,0,6018.65,rpm,6500,1.07997640666927
+STR-02,"planet bearing speed limit of the supplier: margin at 110% speed",rpm,7000,0,6018.65,rpm,7000,1.1630515148746
+DYN-05,"engine mount stiffness: propeller bearing seat stiffness",N/m,100000000,0,39613526.5700483,N/m,50000000,0.792270531400966
+DYN-05,"engine mount stiffness: propeller bearing seat stiffness",N/m,200000000,0,49397590.3614458,N/m,50000000,0.987951807228916
+DYN-05,"engine mount stiffness: propeller bearing seat stiffness",N/m,500000000,0,57991513.437058,N/m,50000000,1.15983026874116
+DYN-05,"engine mount stiffness: propeller bearing seat stiffness",N/m,1000000000,0,61561561.5615616,N/m,50000000,1.23123123123123
+DYN-05,"engine mount stiffness: propeller bearing seat stiffness",N/m,Inf,1,65600000,N/m,50000000,1.312
+ACC-02,"generator unit: largest diameter the layout takes",mm,200,1,201.578928405115,mm,200,1.00789464202558
+ACC-02,"OSG unit: largest diameter the layout takes",mm,90,1,127.953310301253,mm,90,1.4217034477917
+ACC-02,"PCU unit: largest diameter the layout takes",mm,120,1,141.300238092574,mm,120,1.17750198410478

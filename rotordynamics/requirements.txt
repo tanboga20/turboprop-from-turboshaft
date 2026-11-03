@@ -1,0 +1,4 @@
+# ROSS 3.0 needs Python 3.12+, ROSS 3.1 needs Python 3.13+
+ross-rotordynamics>=3.0,<4
+# Plots of prop_shaft_campbell.py
+matplotlib>=3.8

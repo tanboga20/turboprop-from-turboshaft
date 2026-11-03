@@ -1,0 +1,10 @@
+# osg: written by calc/cad_export/cx_export.m, do not edit
+z1 = 21
+z2 = 30
+m = 2
+x1 = 0.1
+x2 = -0.1
+b = 6
+a_w = 51
+hub_d = 20
+bore = 10

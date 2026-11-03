@@ -1,0 +1,15 @@
+# gear2: written by calc/cad_export/cx_export.m, do not edit
+z = 110
+mn = 2
+beta = 15
+hand_right = 0
+x = -0.2
+b = 52
+alpha_n = 20
+rim = 7
+web = 8
+hub_d = 70
+bore = 50
+hub_len = 40
+d_tip = 230.961
+d_root = 221.961

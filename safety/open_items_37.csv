@@ -1,0 +1,19 @@
+id,item,why_open,carried_to,status
+OI-01,F201 side-wall oil-side h (D5),drain film at the lowest flow gives 560 W/m2K against 632 needed for 5 min: wall-spray jets on the F201 walls (about 0.05 kg),3.9 layout; 3.11 fire test,TBR
+OI-02,F201 upper walls and bosses without an oil film (D5),at h 20 the 6 mm wall reaches the A357 solidus in 56 s: spray or a fire shield over F201 (about 0.4 kg),3.9 layout; 3.11 fire test,TBR
+OI-03,Internal oil-side temperature against auto-ignition (D5),oil side 371-402 degC at the passing h against AIT about 404 degC (flash 270): internal-fire question 33.17(a) / CS-E 130(a),3.11 fire test; final report,TBR
+OI-04,Zero-flow phase (D5),after the flow stops the walls reach the solidus in 24-31 s: fire resistant only; the tank fireproof by ICD-42,airframer (ICD-42); final report,TBR
+OI-05,P101 / F201 joint seals and bolts (D5 F3),O-rings at 359-360 degC against the 204 degC rating: the joint leaks; fire-rated secondary seal (0.05 kg) and C-02 seals; steel washers (0.12 kg); clamp holds at 1.11 kN,3.9 drawing; 3.11 fire test with leakage pass/fail,TBR
+OI-06,A357-T6 short-time hot yield (D5),no MMPDS or MIL-HDBK-5J 1/2 h source available here,3.11 coupon tests or a sourced table,TBR
+OI-07,Fire-zone partition and aircraft fire items (D5 F1),the CS-E 30 partition at the P101 / F201 joint plane and ICD-40 to ICD-44 need the airframer's acceptance; fallback shield 0.6 kg would pass SYS-06,airframer (ICD-39 to ICD-44),TBR
+OI-08,D5 F4 and F5 not done (scope freeze),fire items table; shield-or-locate rule for FM35/43/44/45; SAF-05 text; PR-16 test conditions; AS6826 flame note; the 3.11 F201 / joint fire test,3.11 and final report,TBR
+OI-09,Lip run-down rub basis (G1c),shared-contact 736 degC is the basis; the one-sided bound exceeds the Ti-6Al-4V solidus (melts; bound not physical for a closed contact); the feather-first spin-down profile and the 1P tilt were not run; q_R7 rests on the 3.11 rub test,3.11 run-down rub test,TBR
+OI-10,In-flight shutdown sequence (G1c),feather first with the PT governing then cut the fuel: to be written into CTL-04 and SAF-04,3.9 control logic; final report,TBR
+OI-11,SYS-06 offsets (G1c),P111 pockets count only once they have a D4 row: until then 110.10 - 0.15 (P115 scallops) = 109.95 kg against 110 kg TBR,3.9 CAD and D4,TBR
+OI-12,NJ1024 f_kappa 0.85 (G1b),no source: the limp cap 3.0 kN rests on the 3.11 NJ rib rig test,3.11 NJ rig test,TBR
+OI-13,D1 sensitivity to the rub test (G1c),q_R7 = 1 and q_wear = 1 rows for E7 + R7 and E4 + R4 not run,final report,TBR
+OI-14,Gear jam and mount pads (G4),G4 model withdrawn (known faults); the jam is the STANAG 4671 USAR.361(b)(1) sudden-stoppage limit load enveloped by LD-08; detailed check and the mount pads at LD-08 open,3.9 structures,TBR
+OI-15,LD-01 reaction at the mounts,"the propeller turns opposite to the PT (PDR decision), so the whole-RGB reaction at the mounts is T_prop + T_PT = 6915 + 6915 / (12.94 x eta) N m: 7449 N m with the LD-01 PT torque of 534 N m (eta 1) and 7489 N m with eta 0.931 (5027 / (12.94 x 417.3) at MCT); ICD-24 gives 6.4 kN m = T_prop (1 - 1/i), the ring reaction of one stage only; under mount card A the first-stage reaction also reaches the mounts through the P101 / F201 joint; ICD-24 and the checks not changed now",3.13 requirements v4 / ICD reissue,TBR
+OI-16,3.9 drawing items from D4 and G1b,TC boss 12 mm pad; P103 groove 118 mm / Kf 2.0; P117 own D4 row; P101 assembly split (rear-wall plate); S605 clearance r 121; L403 grooves over the push-in travel; P115 vs P116 bolt heads; bearing ring lands; P115 hub relief,3.9 CAD and drawings,TBR
+OI-17,S603 record question,raised by the review; not received before the freeze,final report,TBR
+OI-18,Catcher-lip axial gap in the 3.8 SAF-01 row,"the 3.8 SAF-01 row gives 0.40-0.60 mm while G1b needs at least 0.6 mm hot, loaded and pulled out",3.9,closed in 3.9: 0.80-1.00 mm at 20 degC on the assembly drawing

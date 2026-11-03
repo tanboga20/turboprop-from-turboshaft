@@ -1,0 +1,10 @@
+# pcu: written by calc/cad_export/cx_export.m, do not edit
+z1 = 20
+z2 = 73
+m = 1.5
+x1 = 0.4
+x2 = -0.4
+b = 10
+a_w = 69.75
+hub_d = 40
+bore = 12

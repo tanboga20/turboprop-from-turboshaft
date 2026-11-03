@@ -1,0 +1,16 @@
+# pinion: written by calc/cad_export/cx_export.m, do not edit
+z = 31
+mn = 2
+beta = 15
+hand_right = 1
+x = 0.2
+b = 52
+alpha_n = 20
+bore = 24
+d_tip = 68.9871
+d_root = 59.9871
+lj_f = 37
+lj_r = 78
+lj_seat = 65.5
+r_seat = 22.5
+r_end = 20

@@ -1,0 +1,7 @@
+allowance_en,allowance_tr,base,lowest_in_x10_cases
+"protection element of (a), each","(a) koruma elemanı, her biri",0.0012987012987013,0.00012987012987013
+"in-flight low-pitch stop","uçuş alt hatve durdurucusu",0.001,0.0001
+"low-pitch stop check interval [h]","alt hatve durdurucusu kontrol aralığı [h]",1800,0
+"counterweight feathering","karşı ağırlıklı tüyleme",0.00238095238095238,0.000238095238095238
+"OSG test interval with the FADEC feather [h]","FADEC tüylemesiyle OSG test aralığı [h]",1333300,133300
+"OSG test interval without it [h]","onsuz OSG test aralığı [h]",300,0

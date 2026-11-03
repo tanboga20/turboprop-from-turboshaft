@@ -1,0 +1,75 @@
+# written by cad/scripts/make_dwg39.py, do not edit
+TITLE|PLANET CARRIER WITH PROPELLER SHAFT P103 / TASIYICI VE PERVANE MILI P103
+PARTNO|RGB-P103
+MAT|AISI 4340 VAR (AMS 6414); pins P104 M50NiL (AMS 6278)
+SOURCE|part:carrier
+SCALE|0.25
+PAPER|4
+RCUT|130
+TABLE|DESIGN DATA / TASARIM VERILERI (cad/params/carrier.txt)
+ROW|Planets: 4
+ROW|Planet radius [mm]: 82
+ROW|Pin = inner race [mm]: 38
+ROW|Pin length [mm]: 82
+ROW|Plates: diameter x thickness [mm]: 224 x 10
+ROW|Datums: A = outer bearing seat, B = inner bearing seat (axis A-B); C = carrier rear face
+DIM|sect|-112|-5|112|-5|1
+DIM|end|0|-82|0|82|1
+DIM|sect|-60|-300|60|-300|1
+DIM|sect|-50|-340|50|-340|1
+DIM|sect|112|0|112|-530|0
+DIM|end|63|0|101|0|1
+ROW|Dimensions on the views are the main sizes from the model; all other sizes are in the
+ROW|  tables.
+TABLE|TOLERANCES AND CALLOUTS / TOLERANSLAR (tolerances_v1.csv; GD&T frames as this table, R19)
+ROW|NU1024 journals (dia 120), datum axis A-B: cylindricity = 0.008 mm | A, B
+ROW|front plate inner face, datum C: perpendicularity = 0.010 mm | A-B
+ROW|four planet pin bores (dia 38): position (diametral zone) = 0.010 mm | A-B|C
+ROW|planet pin bores: parallelism to A-B over the pin length = 0.005 mm | A-B
+ROW|QJ1024 seat and shoulder: total runout (axial) = 0.015 mm | A-B
+ROW|flange P115 pilot and face: total runout = 0.020 mm | A-B
+ROW|pin in the plate (dia 38): ISO 286 fit = H6 / s6
+ROW|catcher-lip axial gap at 20 degC: gap = 0.80-1.00 mm
+TABLE|MATERIAL AND PROCESS / MALZEME VE PROSES (materials_v1.csv, S43)
+ROW|Material: AISI 4340, vacuum arc remelted
+ROW|Specification: AMS 6414
+ROW|Condition: Quenched and tempered to 1240 MPa tensile (AMS 2759/1); splines of the sun quill
+ROW|  and the transfer sleeve bore gas nitrided (AMS 2759/6, TBR)
+ROW|Hardness and case: 38-42 HRC core; nitrided splines at least 600 HV (TBR)
+ROW|Surface texture: Bearing journals ground Ra <= 0.4 um; fillets polished; carrier pin bores
+ROW|  line-bored to the 0.010 mm true position of step 2.4
+ROW|NDT: Ultrasonic of the forging (AMS 2630), magnetic particle (ASTM E1444) after final
+ROW|  machining
+ROW|Protection: Oil-wetted surfaces bare; the propeller shaft outside the nose and the flange:
+ROW|  zinc-nickel (AMS 2417) with hydrogen embrittlement bake, epoxy primer and topcoat (ENV-03)
+TABLE|CRITICAL PART / KRITIK PARCA (CS-E 515; safety/critical_parts_v1.csv)
+ROW|Mark: CRITICAL PART - CS-E 515 / KRITIK PARCA; serial number on the part; life tracking:
+ROW|  serial number on the part, flight cycles and hours counted by the engine monitoring unit (1
+ROW|  cycle per flight, plus each LD-01 exceedance), life limit in the ICA airworthiness
+ROW|  limitations section
+ROW|Life limit: 20,000 flight cycles declared; basis: the GAG stress range at each governing
+ROW|  feature is below the -3 sigma crack-initiation endurance of that material and process (cited
+ROW|  data for AISI 4340 VAR forgings, AMS 6414)
+ROW|NDT at manufacture: UT of the forging (AMS 2630 class AA), MPI after final machining as the
+ROW|  general surface check (NER 21); eddy current (ET, NASA-STD-5009C sizes) of the bearing seat,
+ROW|  the thread root and the pin bore corners
+ROW|NDT at TBO: ET of the bearing seat, the thread root and the pin bore corners at each TBO;
+ROW|  the pin bores with the pins pressed out (new pins fitted after) or by a face-corner
+ROW|  procedure with the pins in place; open NDE item: demonstration of the procedures,
+ROW|  probability of detection at the thread root and the pin bore corners (3.10, 3.11); NDT at
+ROW|  TBO after stripping the coating (NASA-STD-5009C sizes credited only under NER 12, 13 and 21,
+ROW|  otherwise a demonstrated POD)
+ROW|D4 governing locations: Propeller shaft P103 at the outer bearing seat; Propeller shaft P103
+ROW|  at the KM24 nut thread root; Carrier of P103 at a pin bore edge; Propeller shaft P103 at the
+ROW|  shoulder-ring groove
+TABLE|NOTES / NOTLAR
+ROW|1. Planet pins P104 are separate M50NiL parts, pressed in (LN2 shrink) and retained (3.4;
+ROW|  materials_v1.csv M5N); pin bores machined before the pins are fitted.
+ROW|2. R5 at the shaft-to-front-plate corner (3.9 brief); polish the radius, no tool marks
+ROW|  across it.
+ROW|3. QJ pull-out shoulder-ring groove: root diameter 118 mm, full radius, 1 mm deep (3.7 D4
+ROW|  location 12, OI-16).
+ROW|4. Catcher-lip collar P118 shrink fit at z 512-516 on the same setup as the QJ1024 seat
+ROW|  (gdt_v1.csv).
+ROW|5. CAD views from the Phase 2 model; the tables and notes govern where they differ (3.9 CAD
+ROW|  update open).

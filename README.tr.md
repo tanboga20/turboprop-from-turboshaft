@@ -40,7 +40,7 @@ Bu, teorik bir öğrenci tasarım çalışmasıdır. Bir uçak motoru tasarım s
 
 | Klasör | İçerik |
 | --- | --- |
-| [`docs/`](docs/) | Şekiller ve kısa faz notları |
+| [`docs/`](docs/) | Final rapor (Türkçe ve İngilizce), şekiller ve kısa faz notları |
 | [`requirements/`](requirements/) | Gereksinimler ve izlenebilirlik matrisi |
 | [`manufacturing/`](manufacturing/) | Malzeme listesi, malzemeler, prosesler, üretim rotaları ve standart parçalar (adım 3.4) |
 | [`calc/`](calc/) | MATLAB tasarım hesapları: dişliler, miller, yataklar, yağlama |

@@ -40,7 +40,7 @@ This is a theoretical student design study. It follows an aero-engine design pro
 
 | Folder | Content |
 | --- | --- |
-| [`docs/`](docs/) | Figures and short phase notes |
+| [`docs/`](docs/) | Final report (English and Turkish), figures and short phase notes |
 | [`requirements/`](requirements/) | Requirements and traceability matrix |
 | [`manufacturing/`](manufacturing/) | Bill of materials, materials, processes, manufacturing routes and standard parts (step 3.4) |
 | [`calc/`](calc/) | MATLAB design calculations: gears, shafts, bearings, lubrication |
